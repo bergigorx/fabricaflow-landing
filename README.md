@@ -9,11 +9,9 @@ python3 -m http.server 8000
 
 ## Configurar o envio do formulário (Zapier)
 
-1. No Zapier, crie um Zap com o gatilho **Webhooks by Zapier → Catch Hook** e copie a URL.
-2. Em `main.js`, troque o valor de `ENDPOINT_FORMULARIO` (primeira linha de configuração) por essa URL.
-3. Envie um pedido de teste pela página para o Zapier reconhecer os campos.
+O formulário envia para o Zap do Igor (gatilho **Webhooks by Zapier → Catch Hook**). A URL fica em `ENDPOINT_FORMULARIO`, no topo do `main.js`. Para trocar de Zap, mude só essa linha.
 
-Enquanto o valor de exemplo estiver lá, o formulário não envia nada: mostra ao visitante uma mensagem e o botão do WhatsApp com a mensagem já pronta.
+Se o envio falhar, o visitante vê uma mensagem e o botão do WhatsApp com a mensagem já pronta.
 
 O envio é um `POST` em `application/x-www-form-urlencoded` (sem pré-verificação CORS). Campos enviados:
 
