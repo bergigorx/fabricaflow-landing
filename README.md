@@ -27,4 +27,6 @@ Dica para os e-mails em lote: use links com UTM, por exemplo `...?utm_source=ema
 
 ## Publicação
 
-Publicada pelo GitHub Pages a partir do branch `main`, pasta raiz (`/`). O arquivo `.nojekyll` faz o GitHub servir os arquivos como estão.
+No ar em **https://fabricaflow.online**, pelo GitHub Pages, a partir do branch `main`, pasta raiz (`/`). O domínio está no arquivo `CNAME`.
+
+DNS na Hostinger: registro `A` em `@` para `185.199.108.153` e `CNAME` em `www` para `bergigorx.github.io`. O painel da Hostinger não aceitou os outros três IPs do GitHub (`185.199.109.153`, `185.199.110.153`, `185.199.111.153`); eles servem só de redundância. O arquivo `.nojekyll` faz o GitHub servir os arquivos como estão.
