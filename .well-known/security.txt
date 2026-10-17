@@ -1,0 +1,5 @@
+Contact: mailto:igorbergara99@gmail.com
+Expires: 2027-10-16T00:00:00.000Z
+Preferred-Languages: pt, en
+Canonical: https://fabricaflow.online/.well-known/security.txt
+Policy: https://github.com/bergigorx/fabricaflow-landing/blob/main/SECURITY.md

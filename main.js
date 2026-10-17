@@ -9,6 +9,14 @@ const WHATSAPP_NUMERO = "5511978746889";
 const WHATSAPP_EXIBICAO = "(11) 97874-6889";
 const TEMPO_LIMITE_MS = 15000;
 
+/* Proteção contra robôs e envios em massa (a URL do webhook é pública, como em qualquer site estático).
+   ORIGEM_FORMULARIO não é segredo: serve para o filtro do Zap descartar chamadas que não vieram deste formulário. */
+const ORIGEM_FORMULARIO = "landing-fabricaflow-v1";
+const TEMPO_MINIMO_MS = 3000;            // ninguém preenche o formulário em menos de 3 segundos
+const INTERVALO_ENTRE_ENVIOS_MS = 60000; // um envio por minuto por navegador
+const paginaAbertaEm = Date.now();
+let ultimoEnvioEm = 0;
+
 const endpointConfigurado = !/EXEMPLO|0000000/.test(ENDPOINT_FORMULARIO);
 
 /* ---------- Calculadora "Quanto custa esperar" ---------- */
@@ -160,8 +168,16 @@ document.getElementById("f-whatsapp").addEventListener("input", (e) => {
   else e.target.value = d;
 });
 
+// Remove caracteres de controle, limita o tamanho e neutraliza fórmulas de planilha (=, +, -, @)
+// para que um texto malicioso não vire fórmula no Google Sheets ou no Excel.
+function limpar(texto, maximo = 1000) {
+  let t = String(texto).replace(/[\u0000-\u0008\u000B\u000C\u000E-\u001F\u007F]/g, "").trim().slice(0, maximo);
+  if (/^[=+\-@\t\r]/.test(t)) t = `'${t}`;
+  return t;
+}
+
 function coletarDados() {
-  const valor = (id) => document.getElementById(id).value.trim();
+  const valor = (id) => limpar(document.getElementById(id).value);
   const dores = Array.from(form.querySelectorAll('input[name="dor"]:checked')).map((c) => c.value);
   const params = new URLSearchParams(window.location.search);
   return {
@@ -177,10 +193,12 @@ function coletarDados() {
     mensagem: valor("f-mensagem"),
     consentimento_lgpd: "sim",
     custo_mensal_estimado: custoMensalEstimado === null ? "" : String(custoMensalEstimado),
-    utm_source: params.get("utm_source") || "",
-    utm_medium: params.get("utm_medium") || "",
-    utm_campaign: params.get("utm_campaign") || "",
-    pagina: window.location.href.split("#")[0],
+    utm_source: limpar(params.get("utm_source") || "", 100),
+    utm_medium: limpar(params.get("utm_medium") || "", 100),
+    utm_campaign: limpar(params.get("utm_campaign") || "", 100),
+    pagina: limpar(window.location.origin + window.location.pathname, 200),
+    origem: ORIGEM_FORMULARIO,
+    tempo_preenchimento_s: String(Math.round((Date.now() - paginaAbertaEm) / 1000)),
     enviado_em: new Date().toISOString(),
   };
 }
@@ -232,18 +250,27 @@ form.addEventListener("submit", async (e) => {
     return;
   }
 
-  // Robôs costumam preencher o campo escondido: finge sucesso e não envia.
-  if (document.getElementById("f-site").value) {
+  // Robôs costumam preencher o campo escondido ou enviar rápido demais: finge sucesso e não envia.
+  if (document.getElementById("f-site").value || Date.now() - paginaAbertaEm < TEMPO_MINIMO_MS) {
     form.reset();
     mostrarAviso("ok", "<strong>Pedido recebido.</strong>");
     return;
   }
 
   const dados = coletarDados();
+  try { ultimoEnvioEm = Math.max(ultimoEnvioEm, Number(localStorage.getItem("ff_ultimo_envio")) || 0); } catch (_) { /* sem armazenamento */ }
+  if (Date.now() - ultimoEnvioEm < INTERVALO_ENTRE_ENVIOS_MS) {
+    mostrarAviso("ok",
+      `<strong>Já recebemos seu pedido.</strong>` +
+      `<span>Para mudar alguma informação, chame no WhatsApp <a href="${linkWhatsApp(dados)}" target="_blank" rel="noopener">${WHATSAPP_EXIBICAO}</a>.</span>`);
+    return;
+  }
   botaoEnviar.disabled = true;
   botaoEnviar.textContent = "Enviando…";
   try {
     await enviar(dados);
+    ultimoEnvioEm = Date.now();
+    try { localStorage.setItem("ff_ultimo_envio", String(ultimoEnvioEm)); } catch (_) { /* sem armazenamento */ }
     form.reset();
     mostrarAviso("ok",
       `<strong>Pedido recebido, ${escapar(dados.nome.split(" ")[0])}!</strong>` +
