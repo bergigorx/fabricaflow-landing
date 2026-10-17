@@ -4,7 +4,7 @@
    Enquanto estiver com o valor de exemplo, o formulário não envia nada
    e mostra ao visitante o link direto do WhatsApp.
    ============================================================ */
-const ENDPOINT_FORMULARIO = "https://hooks.zapier.com/hooks/catch/29143409/41s0dzd/";
+const ENDPOINT_FORMULARIO = "https://hooks.zapier.com/hooks/catch/29163368/41k9r9z/";
 const WHATSAPP_NUMERO = "5511978746889";
 const WHATSAPP_EXIBICAO = "(11) 97874-6889";
 const TEMPO_LIMITE_MS = 15000;
