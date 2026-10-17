@@ -2,7 +2,7 @@
 
 ## Como relatar um problema
 
-Encontrou uma falha de segurança na página https://fabricaflow.online? Escreva para **igorbergara99@gmail.com** com a descrição e os passos para reproduzir. Por favor, não abra uma issue pública antes de o problema ser corrigido.
+Encontrou uma falha de segurança na página https://fabricaflow.online? Escreva para **igorbergara@fabricaflow.online** com a descrição e os passos para reproduzir. Por favor, não abra uma issue pública antes de o problema ser corrigido.
 
 ## O que já está protegido
 
