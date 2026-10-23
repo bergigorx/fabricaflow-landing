@@ -6,7 +6,7 @@
 <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; media-src 'self'; connect-src https://hooks.zapier.com; base-uri 'none'; form-action 'none'; object-src 'none'">
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <title>FábricaFlow</title>
-<meta name="description" content="Gestão operacional para fábricas de papel, embalagens e indústrias de processo. Do pedido no WhatsApp à entrega, tudo em uma só plataforma. Agende uma demonstração de 20 minutos.">
+<meta name="description" content="Gestão operacional para fábricas de papel, embalagens, móveis, metalurgia e indústrias de processo. Do pedido no WhatsApp à entrega, tudo em uma só plataforma. Agende uma demonstração de 20 minutos.">
 <meta name="theme-color" content="#0f2a43">
 <link rel="canonical" href="https://fabricaflow.online/">
 <meta property="og:type" content="website">
@@ -18,7 +18,7 @@
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230f2a43'/%3E%3Cpath d='M8 23V9h11v3h-7v3h6v3h-6v5z' fill='%23e8962e'/%3E%3C/svg%3E">
 <link rel="preload" href="fonts/archivo-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="style.css?v=2">
+<link rel="stylesheet" href="style.css?v=3">
 </head>
 <body>
 
@@ -45,13 +45,13 @@
       <div class="hero-texto">
         <p class="sobretitulo">Gestão operacional para indústrias</p>
         <h1>Do pedido no WhatsApp à entrega, tudo em uma só plataforma</h1>
-        <p class="hero-sub">Atendimento, aprovação, produção, estoque e aviso ao cliente conectados, para fábricas de papel, embalagens e indústrias de processo. Sem digitação manual, com aprovação do gestor.</p>
+        <p class="hero-sub" id="hero-sub">Atendimento, aprovação, produção, estoque e aviso ao cliente conectados, para fábricas de papel, embalagens, móveis, metalurgia e indústrias de processo. Sem digitação manual, com aprovação do gestor.</p>
         <div class="hero-acoes">
           <a class="botao" href="#contato">Agendar demonstração de 20 min</a>
           <a class="botao botao-secundario" href="#como-funciona">Ver como funciona</a>
         </div>
-        <ul class="setores-hero" aria-label="Setores atendidos">
-          <li>Papelão ondulado</li><li>Papel cartão</li><li>Papel e tissue</li><li>Plásticos</li><li>Química</li><li>Alimentos</li>
+        <ul class="setores-hero" id="setores-hero" aria-label="Setores atendidos">
+          <li>Papelão ondulado</li><li>Papel cartão</li><li>Papel e tissue</li><li>Móveis e marcenaria</li><li>Metalurgia e serralheria</li><li>Plásticos</li><li>Química</li><li>Alimentos</li>
         </ul>
       </div>
       <figure class="hero-tela">
@@ -101,7 +101,7 @@
         </fieldset>
         <fieldset class="calc-item">
           <legend>Máquina parada</legend>
-          <p>Bobina, cola ou tinta que acabou sem ninguém perceber a tempo.</p>
+          <p id="calc-material">Bobina, cola ou tinta que acabou sem ninguém perceber a tempo.</p>
           <label for="calc-horas-maquina">Quantas horas por mês?</label>
           <input id="calc-horas-maquina" type="number" inputmode="decimal" min="0" step="any" placeholder="ex.: 4">
           <label for="calc-custo-maquina">Custo da hora parada (R$)</label>
@@ -193,8 +193,8 @@
         </div>
         <div class="conversa" role="img" aria-label="Exemplo de conversa no WhatsApp: o cliente pede 2.000 caixas, recebe o orçamento, confirma, envia o comprovante e é avisado depois da aprovação do gestor.">
           <p class="conversa-topo">Atendimento · WhatsApp</p>
-          <p class="msg msg-cliente">Bom dia! Preciso de 2.000 caixas 40×30×20, onda B, kraft.</p>
-          <p class="msg msg-bot">Bom dia! Orçamento: 2.000 caixas 40×30×20, onda B kraft. Total R$ X.XXX,XX. Prazo de 7 dias úteis. Confirma?</p>
+          <p class="msg msg-cliente" id="conversa-pedido">Bom dia! Preciso de 2.000 caixas 40×30×20, onda B, kraft.</p>
+          <p class="msg msg-bot" id="conversa-orcamento">Bom dia! Orçamento: 2.000 caixas 40×30×20, onda B kraft. Total R$ X.XXX,XX. Prazo de 7 dias úteis. Confirma?</p>
           <p class="msg msg-cliente">Confirmo.</p>
           <p class="msg msg-bot">Pedido #1482 registrado. Segue o link de pagamento. Assim que receber o comprovante, envio para aprovação.</p>
           <p class="msg msg-cliente">Comprovante enviado.</p>
@@ -253,8 +253,8 @@
 
       <div class="setores-config">
         <h3>Setores que configuramos conforme a sua fábrica</h3>
-        <ul>
-          <li>Onduladeira</li><li>Impressão</li><li>Corte e vinco</li><li>Colagem</li><li>Máquina de papel</li><li>Rebobinamento</li><li>Extrusão</li><li>Mistura e envase</li><li>Expedição</li>
+        <ul id="setores-config">
+          <li>Onduladeira</li><li>Impressão</li><li>Corte e vinco</li><li>Colagem</li><li>Máquina de papel</li><li>Corte CNC e seccionadora</li><li>Usinagem</li><li>Corte, dobra e solda</li><li>Pintura</li><li>Montagem</li><li>Extrusão</li><li>Mistura e envase</li><li>Expedição</li>
         </ul>
       </div>
     </div>
@@ -371,6 +371,8 @@
               <option>Papelão ondulado</option>
               <option>Papel cartão</option>
               <option>Papel / tissue</option>
+              <option>Móveis e marcenaria</option>
+              <option>Metalurgia e serralheria</option>
               <option>Plásticos</option>
               <option>Química</option>
               <option>Alimentos</option>
@@ -430,6 +432,6 @@
 
 <a class="cta-fixo escondido" id="cta-fixo" href="#contato">Agendar demonstração de 20 min</a>
 
-<script src="main.js?v=2"></script>
+<script src="main.js?v=3"></script>
 </body>
 </html>
