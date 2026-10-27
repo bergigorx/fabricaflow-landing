@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 594" role="img" aria-labelledby="t d">
+<title id="t">Fluxo do pedido do WhatsApp até a produção</title>
+<desc id="d">1. Receber: cliente pede pelo WhatsApp; 2. Registrar: pedido completo, em um só lugar; 3. Confirmar: resumo + “CONFIRMO” por escrito; 4. Cobrar: pagamento e comprovante anexado; 5. Aprovar: gestor libera para a produção; 6. Avisar: cliente recebe cada etapa.</desc>
+<rect width="640" height="594" rx="14" fill="#f7f5f0"/>
+<rect x="24" y="24" width="592" height="76" rx="12" fill="#fffdf9" stroke="#d9dee4" stroke-width="2"/>
+<circle cx="72" cy="62" r="24" fill="#25a35a"/>
+<text x="72" y="70" text-anchor="middle" font-family="Inter, Arial, Helvetica, sans-serif" font-size="24" font-weight="800" fill="#ffffff">1</text>
+<text x="116" y="57" font-family="Inter, Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#1d2b38">Receber</text>
+<text x="116" y="83" font-family="Inter, Arial, Helvetica, sans-serif" font-size="18" fill="#556474">cliente pede pelo WhatsApp</text>
+<path d="M72 102 L72 115 M65 109 L72 117 L79 109" stroke="#556474" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+<rect x="24" y="118" width="592" height="76" rx="12" fill="#fffdf9" stroke="#d9dee4" stroke-width="2"/>
+<circle cx="72" cy="156" r="24" fill="#e8962e"/>
+<text x="72" y="164" text-anchor="middle" font-family="Inter, Arial, Helvetica, sans-serif" font-size="24" font-weight="800" fill="#0f2a43">2</text>
+<text x="116" y="151" font-family="Inter, Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#1d2b38">Registrar</text>
+<text x="116" y="177" font-family="Inter, Arial, Helvetica, sans-serif" font-size="18" fill="#556474">pedido completo, em um só lugar</text>
+<path d="M72 196 L72 209 M65 203 L72 211 L79 203" stroke="#556474" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+<rect x="24" y="212" width="592" height="76" rx="12" fill="#fffdf9" stroke="#d9dee4" stroke-width="2"/>
+<circle cx="72" cy="250" r="24" fill="#e8962e"/>
+<text x="72" y="258" text-anchor="middle" font-family="Inter, Arial, Helvetica, sans-serif" font-size="24" font-weight="800" fill="#0f2a43">3</text>
+<text x="116" y="245" font-family="Inter, Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#1d2b38">Confirmar</text>
+<text x="116" y="271" font-family="Inter, Arial, Helvetica, sans-serif" font-size="18" fill="#556474">resumo + “CONFIRMO” por escrito</text>
+<path d="M72 290 L72 303 M65 297 L72 305 L79 297" stroke="#556474" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+<rect x="24" y="306" width="592" height="76" rx="12" fill="#fffdf9" stroke="#d9dee4" stroke-width="2"/>
+<circle cx="72" cy="344" r="24" fill="#e8962e"/>
+<text x="72" y="352" text-anchor="middle" font-family="Inter, Arial, Helvetica, sans-serif" font-size="24" font-weight="800" fill="#0f2a43">4</text>
+<text x="116" y="339" font-family="Inter, Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#1d2b38">Cobrar</text>
+<text x="116" y="365" font-family="Inter, Arial, Helvetica, sans-serif" font-size="18" fill="#556474">pagamento e comprovante anexado</text>
+<path d="M72 384 L72 397 M65 391 L72 399 L79 391" stroke="#556474" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+<rect x="24" y="400" width="592" height="76" rx="12" fill="#fffdf9" stroke="#d9dee4" stroke-width="2"/>
+<circle cx="72" cy="438" r="24" fill="#0f2a43"/>
+<text x="72" y="446" text-anchor="middle" font-family="Inter, Arial, Helvetica, sans-serif" font-size="24" font-weight="800" fill="#ffffff">5</text>
+<text x="116" y="433" font-family="Inter, Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#1d2b38">Aprovar</text>
+<text x="116" y="459" font-family="Inter, Arial, Helvetica, sans-serif" font-size="18" fill="#556474">gestor libera para a produção</text>
+<path d="M72 478 L72 491 M65 485 L72 493 L79 485" stroke="#556474" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+<rect x="24" y="494" width="592" height="76" rx="12" fill="#fffdf9" stroke="#d9dee4" stroke-width="2"/>
+<circle cx="72" cy="532" r="24" fill="#25a35a"/>
+<text x="72" y="540" text-anchor="middle" font-family="Inter, Arial, Helvetica, sans-serif" font-size="24" font-weight="800" fill="#ffffff">6</text>
+<text x="116" y="527" font-family="Inter, Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#1d2b38">Avisar</text>
+<text x="116" y="553" font-family="Inter, Arial, Helvetica, sans-serif" font-size="18" fill="#556474">cliente recebe cada etapa</text>
+</svg>
