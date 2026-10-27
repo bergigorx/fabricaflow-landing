@@ -492,3 +492,6 @@ body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-a
   .menu-lateral, .menu-fundo { transition: none; }
 }
 .artigo-corpo .formula { padding: 16px 20px; border-left: 4px solid var(--ambar); border-radius: 8px; background: var(--branco); font-size: 1.125rem; }
+.artigo-figura { margin: 10px 0; display: grid; gap: 10px; }
+.artigo-figura img { width: 100%; height: auto; border-radius: 12px; border: 1px solid rgba(15, 42, 67, .12); background: var(--branco); }
+.artigo-figura figcaption { font-size: var(--t-s); color: var(--cinza); line-height: 1.5; }

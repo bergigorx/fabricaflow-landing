@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 560" role="img" aria-labelledby="t d">
+<title id="t">Os 5 pilares do controle de produção</title>
+<desc id="d">1. Pedido registrado: em um só lugar, de qualquer canal; 2. Liberação com critério: pagamento e aprovação do gestor; 3. Fila por setor: kanban atualizado pelo operador; 4. Estoque com mínimo: alerta antes de faltar material; 5. Cliente avisado: a cada etapa, automaticamente.</desc>
+<rect width="640" height="560" rx="14" fill="#f7f5f0"/>
+<rect x="24" y="24" width="592" height="84" rx="12" fill="#fffdf9" stroke="#d9dee4" stroke-width="2"/>
+<circle cx="74" cy="66" r="26" fill="#e8962e"/>
+<text x="74" y="75" text-anchor="middle" font-family="Inter, Arial, Helvetica, sans-serif" font-size="26" font-weight="800" fill="#0f2a43">1</text>
+<text x="120" y="60" font-family="Inter, Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#1d2b38">Pedido registrado</text>
+<text x="120" y="88" font-family="Inter, Arial, Helvetica, sans-serif" font-size="18" fill="#556474">em um só lugar, de qualquer canal</text>
+<path d="M74 110 L74 126 M66 119 L74 128 L82 119" stroke="#556474" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+<rect x="24" y="130" width="592" height="84" rx="12" fill="#fffdf9" stroke="#d9dee4" stroke-width="2"/>
+<circle cx="74" cy="172" r="26" fill="#0f2a43"/>
+<text x="74" y="181" text-anchor="middle" font-family="Inter, Arial, Helvetica, sans-serif" font-size="26" font-weight="800" fill="#ffffff">2</text>
+<text x="120" y="166" font-family="Inter, Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#1d2b38">Liberação com critério</text>
+<text x="120" y="194" font-family="Inter, Arial, Helvetica, sans-serif" font-size="18" fill="#556474">pagamento e aprovação do gestor</text>
+<path d="M74 216 L74 232 M66 225 L74 234 L82 225" stroke="#556474" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+<rect x="24" y="236" width="592" height="84" rx="12" fill="#fffdf9" stroke="#d9dee4" stroke-width="2"/>
+<circle cx="74" cy="278" r="26" fill="#e8962e"/>
+<text x="74" y="287" text-anchor="middle" font-family="Inter, Arial, Helvetica, sans-serif" font-size="26" font-weight="800" fill="#0f2a43">3</text>
+<text x="120" y="272" font-family="Inter, Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#1d2b38">Fila por setor</text>
+<text x="120" y="300" font-family="Inter, Arial, Helvetica, sans-serif" font-size="18" fill="#556474">kanban atualizado pelo operador</text>
+<path d="M74 322 L74 338 M66 331 L74 340 L82 331" stroke="#556474" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+<rect x="24" y="342" width="592" height="84" rx="12" fill="#fffdf9" stroke="#d9dee4" stroke-width="2"/>
+<circle cx="74" cy="384" r="26" fill="#e8962e"/>
+<text x="74" y="393" text-anchor="middle" font-family="Inter, Arial, Helvetica, sans-serif" font-size="26" font-weight="800" fill="#0f2a43">4</text>
+<text x="120" y="378" font-family="Inter, Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#1d2b38">Estoque com mínimo</text>
+<text x="120" y="406" font-family="Inter, Arial, Helvetica, sans-serif" font-size="18" fill="#556474">alerta antes de faltar material</text>
+<path d="M74 428 L74 444 M66 437 L74 446 L82 437" stroke="#556474" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+<rect x="24" y="448" width="592" height="84" rx="12" fill="#fffdf9" stroke="#d9dee4" stroke-width="2"/>
+<circle cx="74" cy="490" r="26" fill="#e8962e"/>
+<text x="74" y="499" text-anchor="middle" font-family="Inter, Arial, Helvetica, sans-serif" font-size="26" font-weight="800" fill="#0f2a43">5</text>
+<text x="120" y="484" font-family="Inter, Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#1d2b38">Cliente avisado</text>
+<text x="120" y="512" font-family="Inter, Arial, Helvetica, sans-serif" font-size="18" fill="#556474">a cada etapa, automaticamente</text>
+</svg>

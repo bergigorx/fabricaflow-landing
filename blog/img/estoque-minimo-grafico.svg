@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 520" role="img" aria-labelledby="t d">
+<title id="t">Gráfico do estoque mínimo</title>
+<desc id="d">O saldo do material cai com o consumo. Quando chega ao estoque mínimo (ponto de pedido), a compra é feita; durante o prazo de reposição o saldo continua caindo até o material chegar. No segundo ciclo o consumo foi acima do normal e o saldo entrou no estoque de segurança, sem faltar material.</desc>
+<rect width="640" height="520" rx="14" fill="#fffdf9"/>
+<rect x="60" y="262" width="550" height="58" fill="#fbe3c4"/>
+<line x1="60" y1="175" x2="610" y2="175" stroke="#e8962e" stroke-width="3" stroke-dasharray="10 7"/>
+<line x1="60" y1="20" x2="60" y2="320" stroke="#556474" stroke-width="2"/>
+<line x1="60" y1="320" x2="610" y2="320" stroke="#556474" stroke-width="2"/>
+<text x="44" y="175" transform="rotate(-90 44 175)" text-anchor="middle" font-family="Inter, Arial, Helvetica, sans-serif" font-size="16" fill="#556474">Saldo</text>
+<path d="M60,44 L200,175 L300,262 L300,44 L430,175 L510,297 L510,44 L600,140" fill="none" stroke="#0f2a43" stroke-width="4" stroke-linejoin="round"/>
+<circle cx="200" cy="175" r="7" fill="#e8962e" stroke="#0f2a43" stroke-width="2"/>
+<circle cx="430" cy="175" r="7" fill="#e8962e" stroke="#0f2a43" stroke-width="2"/>
+<text x="188" y="205" text-anchor="end" font-family="Inter, Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#1d2b38">Compra</text>
+<text x="308" y="34" font-family="Inter, Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#1d2b38">Material chega</text>
+<circle cx="510" cy="297" r="13" fill="#0f2a43"/><text x="510" y="303" text-anchor="middle" font-family="Inter, Arial, Helvetica, sans-serif" font-size="17" font-weight="800" fill="#ffffff">!</text>
+<path d="M200 338 L200 348 L300 348 L300 338" fill="none" stroke="#1d2b38" stroke-width="2"/>
+<text x="250" y="370" text-anchor="middle" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="600" fill="#1d2b38">prazo de reposição</text>
+<text x="610" y="370" text-anchor="end" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" fill="#556474">tempo →</text>
+<line x1="40" y1="404" x2="80" y2="404" stroke="#e8962e" stroke-width="3" stroke-dasharray="10 7"/>
+<text x="94" y="410" font-family="Inter, Arial, Helvetica, sans-serif" font-size="17" fill="#1d2b38"><tspan font-weight="700">Estoque mínimo (ponto de pedido):</tspan> hora de comprar</text>
+<rect x="40" y="428" width="40" height="20" fill="#fbe3c4"/>
+<text x="94" y="444" font-family="Inter, Arial, Helvetica, sans-serif" font-size="17" fill="#1d2b38"><tspan font-weight="700">Estoque de segurança:</tspan> cobre imprevistos</text>
+<circle cx="60" cy="476" r="11" fill="#0f2a43"/><text x="60" y="482" text-anchor="middle" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="800" fill="#ffffff">!</text>
+<text x="94" y="482" font-family="Inter, Arial, Helvetica, sans-serif" font-size="17" fill="#1d2b38">Consumo acima do normal: a segurança evita a falta</text>
+</svg>

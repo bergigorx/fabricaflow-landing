@@ -17,12 +17,13 @@
 <meta property="og:url" content="https://fabricaflow.online/blog/estoque-minimo-fabrica/">
 <meta property="og:title" content="Como calcular o estoque mínimo dos materiais da fábrica (com exemplo)">
 <meta property="og:description" content="A fórmula do estoque mínimo, os três números necessários e dois exemplos resolvidos, de papelão e de móveis.">
-<meta property="og:image" content="https://fabricaflow.online/img/og-fabricaflow.jpg">
+<meta property="og:image" content="https://fabricaflow.online/blog/img/capa-estoque-minimo.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="article:published_time" content="2026-10-27">
 <meta property="article:author" content="Igor Bergara">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://fabricaflow.online/blog/img/capa-estoque-minimo.jpg">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <script type="application/ld+json">
@@ -33,7 +34,7 @@
       "@type": "Article",
       "headline": "Como calcular o estoque mínimo dos materiais da fábrica (com exemplo)",
       "description": "A fórmula do estoque mínimo, os três números necessários e dois exemplos resolvidos, de papelão e de móveis.",
-      "image": "https://fabricaflow.online/img/og-fabricaflow.jpg",
+      "image": ["https://fabricaflow.online/blog/img/capa-estoque-minimo.jpg", "https://fabricaflow.online/blog/img/estoque-minimo-grafico.svg"],
       "datePublished": "2026-10-27",
       "dateModified": "2026-10-27",
       "inLanguage": "pt-BR",
@@ -59,7 +60,7 @@
 </script>
 <link rel="preload" href="/fonts/archivo-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/style.css?v=8">
+<link rel="stylesheet" href="/style.css?v=9">
 </head>
 <body>
 
@@ -131,6 +132,10 @@
           <li><strong>Estoque mínimo:</strong> no dia a dia da fábrica, é o número que dispara o alerta de compra. Na prática, o mais útil é usar o ponto de pedido como estoque mínimo, e é isso que este guia ensina a calcular.</li>
         </ul>
 
+        <figure class="artigo-figura">
+          <img src="/blog/img/estoque-minimo-grafico.svg" width="640" height="520" alt="Gráfico do saldo de um material ao longo do tempo: o saldo cai até o estoque mínimo, a compra é feita, o saldo continua caindo durante o prazo de reposição e sobe quando o material chega; a faixa de estoque de segurança cobre um consumo acima do normal.">
+          <figcaption>Como o estoque mínimo funciona: a compra sai no ponto de pedido e o material chega antes de acabar.</figcaption>
+        </figure>
         <h2>Os três números de que você precisa</h2>
         <ol>
           <li><strong>Consumo médio diário:</strong> quanto do material sai por dia de produção. Some as saídas dos últimos 2 ou 3 meses e divida pelos dias trabalhados no período.</li>
@@ -195,6 +200,10 @@
           <li><strong>Para o resto</strong>, um estoque mínimo aproximado já resolve. Revise quando houver falta.</li>
         </ul>
 
+        <figure class="artigo-figura">
+          <img src="/img/estoque-800.webp" srcset="/img/estoque-800.webp 800w, /img/estoque.webp 1440w" sizes="(max-width: 760px) 92vw, 720px" width="800" height="500" alt="Tela de estoque do FábricaFlow com o saldo de cada material, o estoque mínimo e o alerta de estoque baixo." loading="lazy" decoding="async">
+          <figcaption>Saldo de cada material contra o estoque mínimo, com alerta, no FábricaFlow (dados de demonstração).</figcaption>
+        </figure>
         <h2>Erros comuns</h2>
         <ul>
           <li><strong>Calcular com o saldo errado:</strong> se as saídas não são lançadas, o alerta dispara tarde. Estoque mínimo só funciona com saldo confiável.</li>
