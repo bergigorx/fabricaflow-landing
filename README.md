@@ -48,6 +48,7 @@ Veja [SECURITY.md](SECURITY.md).
 ## Arquivos
 
 - `index.html`, `style.css`, `main.js`: a página.
+- `menu.js`: menu lateral do celular (botão ☰), carregado em todas as páginas. Os links do menu ficam no HTML de cada página; ao mudar o menu, edite `index.html` e os arquivos de `blog/` e rode `scripts/gerar_segmentos.py`.
 - `fonts/`: Archivo e Inter em WOFF2, servidas pelo próprio site (licença SIL OFL 1.1 nos arquivos `OFL-*.txt`).
 - `.well-known/security.txt`: contato para relatar falhas de segurança.
 - `img/`: prints reais do app em WebP (1440 px e 800 px), sem o selo "Edit with Lovable". Gerados pelo script `landing-fabricaflow/scripts/preparar_imagens.py` do repositório `bergigorx/estudos`.
