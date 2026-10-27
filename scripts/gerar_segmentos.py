@@ -18,8 +18,8 @@ SEGMENTOS = [
     {
         "slug": "papel-e-embalagens",
         "nome": "Papel e embalagens",
-        "titulo": "Sistema de gestão para fábricas de papel, papelão e embalagens | FábricaFlow",
-        "descricao": "Plataforma de gestão industrial para fábricas de papel, papelão ondulado, papel cartão e embalagens: pedidos do WhatsApp, aprovação do gestor, produção por setor, estoque de bobinas e insumos e aviso ao cliente.",
+        "titulo": "Sistema de gestão para fábricas de embalagens | FábricaFlow",
+        "descricao": "Gestão industrial para fábricas de papel, papelão e embalagens: pedidos do WhatsApp, produção por setor, estoque de bobinas e aviso ao cliente.",
         "h1": "Sistema de gestão para fábricas de papel, papelão e embalagens",
         "hero_sub": "Atendimento, aprovação, produção, estoque e aviso ao cliente conectados, para fábricas de papelão ondulado, papel cartão, papel e tissue e embalagens. Sem digitação manual, com aprovação do gestor.",
         "chips": ["Papelão ondulado", "Papel cartão", "Papel e tissue", "Caixas e embalagens", "Envelopes e sacolas"],
@@ -37,8 +37,8 @@ SEGMENTOS = [
     {
         "slug": "moveis-e-marcenaria",
         "nome": "Móveis e marcenaria",
-        "titulo": "Sistema de gestão para fábricas de móveis e marcenarias | FábricaFlow",
-        "descricao": "Plataforma de gestão industrial para fábricas de móveis planejados, corporativos e marcenarias: pedidos do WhatsApp, aprovação do gestor, produção por setor, estoque de MDF e ferragens e aviso ao cliente.",
+        "titulo": "Sistema de gestão para fábricas de móveis | FábricaFlow",
+        "descricao": "Gestão industrial para fábricas de móveis e marcenarias: pedidos do WhatsApp, produção por setor, estoque de MDF e ferragens e aviso ao cliente.",
         "h1": "Sistema de gestão para fábricas de móveis e marcenarias",
         "dores": [
             ("Projeto e pedido no mesmo lugar", "Ambientes, medidas, acabamentos e prazos registrados no pedido, com o histórico de cada alteração."),
@@ -49,8 +49,8 @@ SEGMENTOS = [
     {
         "slug": "metalurgia-e-serralheria",
         "nome": "Metalurgia e serralheria",
-        "titulo": "Sistema de gestão para metalúrgicas e serralherias | FábricaFlow",
-        "descricao": "Plataforma de gestão industrial para metalúrgicas, serralherias e fábricas de estruturas metálicas: pedidos do WhatsApp, aprovação do gestor, produção por setor, estoque de chapas e perfis e aviso ao cliente.",
+        "titulo": "Sistema de gestão para metalúrgicas | FábricaFlow",
+        "descricao": "Gestão industrial para metalúrgicas e serralherias: pedidos do WhatsApp, produção por setor, estoque de chapas e perfis e aviso ao cliente.",
         "h1": "Sistema de gestão para metalúrgicas e serralherias",
         "dores": [
             ("Desenho e pedido juntos", "Quantidade, material, acabamento e prazo registrados no pedido, sem depender de conversa solta."),
