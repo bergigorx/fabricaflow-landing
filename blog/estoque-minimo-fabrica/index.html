@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; media-src 'self'; connect-src https://hooks.zapier.com; base-uri 'none'; form-action 'none'; object-src 'none'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<title>Estoque mínimo: como calcular, com exemplo | FábricaFlow</title>
+<meta name="description" content="Aprenda a calcular o estoque mínimo dos materiais da fábrica: fórmula, estoque de segurança e dois exemplos resolvidos, de papelão e de móveis.">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<meta name="theme-color" content="#0f2a43">
+<meta name="author" content="Igor Bergara">
+<link rel="canonical" href="https://fabricaflow.online/blog/estoque-minimo-fabrica/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="FábricaFlow">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:url" content="https://fabricaflow.online/blog/estoque-minimo-fabrica/">
+<meta property="og:title" content="Como calcular o estoque mínimo dos materiais da fábrica (com exemplo)">
+<meta property="og:description" content="A fórmula do estoque mínimo, os três números necessários e dois exemplos resolvidos, de papelão e de móveis.">
+<meta property="og:image" content="https://fabricaflow.online/img/og-fabricaflow.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="article:published_time" content="2026-10-27">
+<meta property="article:author" content="Igor Bergara">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "Como calcular o estoque mínimo dos materiais da fábrica (com exemplo)",
+      "description": "A fórmula do estoque mínimo, os três números necessários e dois exemplos resolvidos, de papelão e de móveis.",
+      "image": "https://fabricaflow.online/img/og-fabricaflow.jpg",
+      "datePublished": "2026-10-27",
+      "dateModified": "2026-10-27",
+      "inLanguage": "pt-BR",
+      "mainEntityOfPage": "https://fabricaflow.online/blog/estoque-minimo-fabrica/",
+      "author": { "@type": "Person", "name": "Igor Bergara", "url": "https://fabricaflow.online/" },
+      "publisher": {
+        "@type": "Organization",
+        "name": "FábricaFlow",
+        "url": "https://fabricaflow.online/",
+        "logo": { "@type": "ImageObject", "url": "https://fabricaflow.online/img/logo-fabricaflow.png" }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "FábricaFlow", "item": "https://fabricaflow.online/" },
+        { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://fabricaflow.online/blog/" },
+        { "@type": "ListItem", "position": 3, "name": "Estoque mínimo da fábrica", "item": "https://fabricaflow.online/blog/estoque-minimo-fabrica/" }
+      ]
+    }
+  ]
+}
+</script>
+<link rel="preload" href="/fonts/archivo-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/style.css?v=8">
+</head>
+<body>
+
+<header class="topo">
+  <div class="topo-inner">
+    <a class="marca" href="/" aria-label="FábricaFlow, página inicial">
+      <span class="marca-icone" aria-hidden="true">F</span>
+      <span>FábricaFlow</span>
+    </a>
+    <nav class="topo-nav" aria-label="Seções">
+      <a href="/#como-funciona">Como funciona</a>
+      <a href="/blog/">Blog</a>
+      <a href="/#investimento">Investimento</a>
+    </nav>
+    <a class="botao botao-pequeno" href="/#contato"><span class="cta-longo">Agendar demonstração</span><span class="cta-curto">Demonstração</span></a>
+    <button class="menu-botao" type="button" aria-expanded="false" aria-controls="menu-lateral" aria-label="Abrir menu">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+  </div>
+</header>
+<div class="menu-fundo" aria-hidden="true"></div>
+<nav class="menu-lateral" id="menu-lateral" aria-label="Menu">
+  <div class="menu-cabeca">
+    <a class="marca" href="/"><span class="marca-icone" aria-hidden="true">F</span><span>FábricaFlow</span></a>
+    <button class="menu-fechar" type="button" aria-label="Fechar menu">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+  </div>
+  <ul class="menu-links">
+    <li><a href="/">Início</a></li>
+    <li><a href="/#como-funciona">Como funciona</a></li>
+    <li><a href="/#telas">Telas do sistema</a></li>
+    <li><a href="/#investimento">Investimento</a></li>
+    <li><a href="/#perguntas">Perguntas frequentes</a></li>
+    <li><a href="/blog/">Blog</a></li>
+  </ul>
+  <p class="menu-grupo">Segmentos</p>
+  <ul class="menu-links">
+    <li><a href="/segmentos/papel-e-embalagens/">Papel e embalagens</a></li>
+    <li><a href="/segmentos/moveis-e-marcenaria/">Móveis e marcenaria</a></li>
+    <li><a href="/segmentos/metalurgia-e-serralheria/">Metalurgia e serralheria</a></li>
+  </ul>
+  <a class="botao botao-largo" href="/#contato">Agendar demonstração</a>
+  <p class="menu-contato">Igor Bergara<br><a href="https://wa.me/5511978746889" target="_blank" rel="noopener">WhatsApp (11) 97874-6889</a></p>
+</nav>
+
+<main>
+  <article class="artigo">
+    <div class="faixa artigo-faixa">
+      <nav class="migalhas" aria-label="Você está em">
+        <a href="/">Início</a> <span aria-hidden="true">›</span> <a href="/blog/">Blog</a>
+      </nav>
+      <header class="artigo-cabeca">
+        <p class="sobretitulo">Controle de estoque</p>
+        <h1>Como calcular o estoque mínimo dos materiais da fábrica (com exemplo)</h1>
+        <p class="artigo-linha-fina">A fórmula, os três números de que você precisa e dois exemplos resolvidos, para nunca mais parar a máquina por falta de material.</p>
+        <p class="artigo-meta">Por Igor Bergara · 27 de outubro de 2026 · 4 min de leitura</p>
+      </header>
+
+      <div class="artigo-corpo">
+        <p>Material que acaba sem aviso é uma das formas mais caras de perder dinheiro na fábrica: a máquina para, o pedido atrasa, a compra sai às pressas e mais cara. O contrário também custa: estoque demais prende o caixa e ocupa espaço. O estoque mínimo existe para resolver esse equilíbrio. É o ponto em que você precisa comprar para que o material chegue antes de acabar.</p>
+        <p>Neste guia você vai ver a fórmula, os dados necessários e dois exemplos resolvidos, um de papelão e um de móveis.</p>
+
+        <h2>Estoque mínimo, estoque de segurança e ponto de pedido</h2>
+        <p>Os três termos costumam ser usados como se fossem a mesma coisa. Vale separar:</p>
+        <ul>
+          <li><strong>Estoque de segurança:</strong> a reserva para imprevistos, como um consumo acima do normal ou um fornecedor que atrasa.</li>
+          <li><strong>Ponto de pedido:</strong> o saldo em que você precisa fazer a compra. É o consumo durante o prazo de entrega do fornecedor mais o estoque de segurança.</li>
+          <li><strong>Estoque mínimo:</strong> no dia a dia da fábrica, é o número que dispara o alerta de compra. Na prática, o mais útil é usar o ponto de pedido como estoque mínimo, e é isso que este guia ensina a calcular.</li>
+        </ul>
+
+        <h2>Os três números de que você precisa</h2>
+        <ol>
+          <li><strong>Consumo médio diário:</strong> quanto do material sai por dia de produção. Some as saídas dos últimos 2 ou 3 meses e divida pelos dias trabalhados no período.</li>
+          <li><strong>Prazo de reposição:</strong> quantos dias de produção passam entre fazer o pedido e o material estar disponível na fábrica. Inclua o tempo de aprovação da compra, não só o frete.</li>
+          <li><strong>Variação:</strong> qual foi o maior consumo diário e o maior atraso do fornecedor no período. É daqui que sai o estoque de segurança.</li>
+        </ol>
+        <p>Se você ainda não tem esses dados registrados, comece com uma estimativa do encarregado e ajuste depois de um mês de lançamentos.</p>
+
+        <h2>A fórmula</h2>
+        <p class="formula"><strong>Estoque mínimo</strong> = consumo médio diário × prazo de reposição + estoque de segurança</p>
+        <p>E para o estoque de segurança, use um destes dois métodos:</p>
+        <ul>
+          <li><strong>Método simples (dias de cobertura):</strong> estoque de segurança = consumo médio diário × dias extras de proteção. Para a maioria dos materiais, de 2 a 5 dias resolvem.</li>
+          <li><strong>Método do pior caso:</strong> estoque de segurança = (consumo máximo diário × prazo máximo) − (consumo médio diário × prazo médio). Use para materiais críticos ou fornecedores pouco confiáveis.</li>
+        </ul>
+
+        <h2>Exemplo 1: bobina de papel kraft em uma fábrica de papelão</h2>
+        <p>Dados dos últimos três meses:</p>
+        <ul>
+          <li>consumo médio: 1,2 tonelada por dia;</li>
+          <li>maior consumo em um dia: 1,6 tonelada;</li>
+          <li>prazo médio do fornecedor: 10 dias úteis; maior atraso registrado: 14 dias úteis.</li>
+        </ul>
+        <p>Como a bobina para a onduladeira inteira, vale usar o método do pior caso:</p>
+        <ol>
+          <li>Consumo durante o prazo: 1,2 × 10 = <strong>12 toneladas</strong>.</li>
+          <li>Estoque de segurança: (1,6 × 14) − (1,2 × 10) = 22,4 − 12 = <strong>10,4 toneladas</strong>.</li>
+          <li>Estoque mínimo: 12 + 10,4 = <strong>22,4 toneladas</strong>.</li>
+        </ol>
+        <p>Ou seja: quando o saldo de bobina kraft chegar a 22,4 toneladas, é hora de comprar.</p>
+
+        <h2>Exemplo 2: chapa de MDF em uma fábrica de móveis planejados</h2>
+        <ul>
+          <li>consumo médio: 15 chapas por dia;</li>
+          <li>prazo de reposição: 5 dias úteis, fornecedor pontual;</li>
+          <li>proteção desejada: 2 dias de consumo.</li>
+        </ul>
+        <ol>
+          <li>Consumo durante o prazo: 15 × 5 = <strong>75 chapas</strong>.</li>
+          <li>Estoque de segurança (método simples): 15 × 2 = <strong>30 chapas</strong>.</li>
+          <li>Estoque mínimo: 75 + 30 = <strong>105 chapas</strong>.</li>
+        </ol>
+
+        <h2>Resumo dos exemplos</h2>
+        <div class="tabela-rolagem">
+          <table class="tabela">
+            <thead>
+              <tr><th scope="col">Material</th><th scope="col">Consumo médio/dia</th><th scope="col">Prazo</th><th scope="col">Segurança</th><th scope="col">Estoque mínimo</th></tr>
+            </thead>
+            <tbody>
+              <tr><th scope="row">Bobina kraft</th><td>1,2 t</td><td>10 dias</td><td>10,4 t (pior caso)</td><td>22,4 t</td></tr>
+              <tr><th scope="row">Chapa de MDF</th><td>15 chapas</td><td>5 dias</td><td>30 chapas (2 dias)</td><td>105 chapas</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h2>Tenho centenas de materiais. Por onde começo?</h2>
+        <p>Não é preciso calcular tudo no primeiro dia. Use a lógica da curva ABC:</p>
+        <ul>
+          <li><strong>Comece pelos materiais que param a produção</strong> quando faltam, como bobina, chapa, resina, cola e tinta. Em geral são de 10 a 20 itens.</li>
+          <li><strong>Depois, os de maior valor</strong>, em que errar para mais prende muito dinheiro.</li>
+          <li><strong>Para o resto</strong>, um estoque mínimo aproximado já resolve. Revise quando houver falta.</li>
+        </ul>
+
+        <h2>Erros comuns</h2>
+        <ul>
+          <li><strong>Calcular com o saldo errado:</strong> se as saídas não são lançadas, o alerta dispara tarde. Estoque mínimo só funciona com saldo confiável.</li>
+          <li><strong>Esquecer o tempo interno:</strong> o prazo de reposição começa quando alguém percebe a necessidade, não quando o pedido chega ao fornecedor.</li>
+          <li><strong>Nunca revisar:</strong> consumo e prazos mudam com a época do ano e com novos clientes. Revise os materiais críticos a cada trimestre.</li>
+          <li><strong>Depender da memória de uma pessoa:</strong> o alerta precisa aparecer para quem compra, sem ninguém ter que conferir a planilha.</li>
+        </ul>
+
+        <h2>Resumo</h2>
+        <p>Estoque mínimo = consumo médio diário × prazo de reposição + estoque de segurança. Para materiais críticos, calcule a segurança pelo pior caso; para os demais, alguns dias de cobertura bastam. Comece pelos itens que param a produção, mantenha o saldo atualizado e revise a cada trimestre.</p>
+      </div>
+
+      <aside class="artigo-cta">
+        <h2>Receba o alerta antes de faltar material</h2>
+        <p>No FábricaFlow, cada entrada, saída e ajuste fica registrado e o saldo é atualizado na hora. Quando um material chega ao estoque mínimo, o gestor é avisado. Em 20 minutos, por vídeo, mostramos como funciona com os materiais da sua fábrica.</p>
+        <a class="botao" href="/#contato">Agendar demonstração de 20 min</a>
+        <p class="artigo-cta-links">Leia também: <a href="/blog/controle-de-producao-pequena-fabrica/">controle de produção na pequena fábrica</a> · <a href="/segmentos/papel-e-embalagens/">papel e embalagens</a> · <a href="/segmentos/moveis-e-marcenaria/">móveis e marcenaria</a></p>
+      </aside>
+    </div>
+  </article>
+</main>
+
+<footer class="rodape">
+  <div class="faixa rodape-inner">
+    <p><strong>FábricaFlow</strong> · Plataforma de gestão industrial</p>
+    <nav class="rodape-links" aria-label="Segmentos">
+      <a href="/segmentos/papel-e-embalagens/">Papel e embalagens</a>
+      <a href="/segmentos/moveis-e-marcenaria/">Móveis e marcenaria</a>
+      <a href="/segmentos/metalurgia-e-serralheria/">Metalurgia e serralheria</a>
+      <a href="/blog/">Blog</a>
+      <a href="/#perguntas">Perguntas frequentes</a>
+    </nav>
+    <p>Igor Bergara · igorbergara@fabricaflow.online · (11) 97874-6889</p>
+  </div>
+</footer>
+<script src="/menu.js?v=2" defer></script>
+</body>
+</html>

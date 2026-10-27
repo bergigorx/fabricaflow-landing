@@ -35,6 +35,7 @@ Indústrias que seguem o fluxo pedido → produção → entrega e controlam est
 
 ## Artigos
 
+- Como calcular o estoque mínimo dos materiais da fábrica (com exemplo): https://fabricaflow.online/blog/estoque-minimo-fabrica/
 - Controle de produção na pequena fábrica: como sair da planilha e do WhatsApp: https://fabricaflow.online/blog/controle-de-producao-pequena-fabrica/
 
 ## Perguntas frequentes

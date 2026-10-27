@@ -491,3 +491,4 @@ body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-a
 @media (prefers-reduced-motion: reduce) {
   .menu-lateral, .menu-fundo { transition: none; }
 }
+.artigo-corpo .formula { padding: 16px 20px; border-left: 4px solid var(--ambar); border-radius: 8px; background: var(--branco); font-size: 1.125rem; }
