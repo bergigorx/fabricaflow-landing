@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; media-src 'self'; connect-src https://hooks.zapier.com; base-uri 'none'; form-action 'none'; object-src 'none'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<title>Controle de produção na pequena fábrica: guia prático</title>
+<meta name="description" content="Como organizar o controle de produção de uma pequena fábrica: pedido, liberação, fila por setor, estoque e aviso ao cliente, com um plano de 4 semanas.">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<meta name="theme-color" content="#0f2a43">
+<meta name="author" content="Igor Bergara">
+<link rel="canonical" href="https://fabricaflow.online/blog/controle-de-producao-pequena-fabrica/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="FábricaFlow">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:url" content="https://fabricaflow.online/blog/controle-de-producao-pequena-fabrica/">
+<meta property="og:title" content="Controle de produção na pequena fábrica: como sair da planilha e do WhatsApp">
+<meta property="og:description" content="Os 5 pilares do controle de produção, um plano de 4 semanas para implantar e os indicadores que o gestor deve acompanhar.">
+<meta property="og:image" content="https://fabricaflow.online/img/og-fabricaflow.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="article:published_time" content="2026-10-27">
+<meta property="article:author" content="Igor Bergara">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "Controle de produção na pequena fábrica: como sair da planilha e do WhatsApp",
+      "description": "Os 5 pilares do controle de produção, um plano de 4 semanas para implantar e os indicadores que o gestor deve acompanhar.",
+      "image": "https://fabricaflow.online/img/og-fabricaflow.jpg",
+      "datePublished": "2026-10-27",
+      "dateModified": "2026-10-27",
+      "inLanguage": "pt-BR",
+      "mainEntityOfPage": "https://fabricaflow.online/blog/controle-de-producao-pequena-fabrica/",
+      "author": { "@type": "Person", "name": "Igor Bergara", "url": "https://fabricaflow.online/" },
+      "publisher": {
+        "@type": "Organization",
+        "name": "FábricaFlow",
+        "url": "https://fabricaflow.online/",
+        "logo": { "@type": "ImageObject", "url": "https://fabricaflow.online/img/logo-fabricaflow.png" }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "FábricaFlow", "item": "https://fabricaflow.online/" },
+        { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://fabricaflow.online/blog/" },
+        { "@type": "ListItem", "position": 3, "name": "Controle de produção na pequena fábrica", "item": "https://fabricaflow.online/blog/controle-de-producao-pequena-fabrica/" }
+      ]
+    }
+  ]
+}
+</script>
+<link rel="preload" href="/fonts/archivo-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/style.css?v=5">
+</head>
+<body>
+
+<header class="topo">
+  <div class="topo-inner">
+    <a class="marca" href="/" aria-label="FábricaFlow, página inicial">
+      <span class="marca-icone" aria-hidden="true">F</span>
+      <span>FábricaFlow</span>
+    </a>
+    <nav class="topo-nav" aria-label="Seções">
+      <a href="/#como-funciona">Como funciona</a>
+      <a href="/blog/">Blog</a>
+      <a href="/#investimento">Investimento</a>
+    </nav>
+    <a class="botao botao-pequeno" href="/#contato">Agendar demonstração</a>
+  </div>
+</header>
+
+<main>
+  <article class="artigo">
+    <div class="faixa artigo-faixa">
+      <nav class="migalhas" aria-label="Você está em">
+        <a href="/">Início</a> <span aria-hidden="true">›</span> <a href="/blog/">Blog</a>
+      </nav>
+      <header class="artigo-cabeca">
+        <p class="sobretitulo">Gestão da produção</p>
+        <h1>Controle de produção na pequena fábrica: como sair da planilha e do WhatsApp</h1>
+        <p class="artigo-linha-fina">Os 5 pilares de um controle de produção que funciona, um plano de 4 semanas para colocar em prática e os números que o gestor precisa olhar toda semana.</p>
+        <p class="artigo-meta">Por Igor Bergara · 27 de outubro de 2026 · 5 min de leitura</p>
+      </header>
+
+      <div class="artigo-corpo">
+        <p>Em muita fábrica pequena e média, o controle de produção vive em três lugares ao mesmo tempo: no WhatsApp de quem atende, numa planilha que só uma pessoa entende e na cabeça do encarregado. Funciona enquanto o volume é baixo. Quando os pedidos aumentam, os sintomas aparecem:</p>
+        <ul>
+          <li>pedido que “sumiu” na conversa e ninguém produziu;</li>
+          <li>máquina parada porque o material acabou e ninguém avisou a compra;</li>
+          <li>cliente ligando para saber se o pedido já saiu;</li>
+          <li>produção começando antes do pagamento confirmado;</li>
+          <li>o dono precisando estar na fábrica para qualquer decisão.</li>
+        </ul>
+        <p>A boa notícia: controlar a produção não exige um projeto de ERP de meses nem uma equipe de PCP. Exige um fluxo claro e um lugar único onde ele aconteça. Este guia mostra como montar esse fluxo, passo a passo.</p>
+
+        <h2>O que é controle de produção, na prática</h2>
+        <p>Controle de produção é saber, a qualquer momento, <strong>o que entrou, o que está sendo feito, onde está parado e quando vai sair</strong>, e garantir que o material necessário esteja disponível. Em fábricas maiores isso vira o PCP (planejamento e controle da produção). Na pequena fábrica, o essencial cabe em cinco pilares.</p>
+
+        <h2>Os 5 pilares de um controle de produção que funciona</h2>
+
+        <h3>1. Todo pedido registrado em um só lugar</h3>
+        <p>Pedido que chega pelo WhatsApp, por telefone ou por e-mail precisa virar um registro único, com cliente, produto, especificação, quantidade, prazo e valor. Se a informação fica só na conversa, ela se perde quando a pessoa sai de férias ou troca de celular. A regra é simples: <strong>se não está registrado, não existe</strong>.</p>
+
+        <h3>2. Critério claro para liberar a produção</h3>
+        <p>Defina o que precisa acontecer antes de um pedido entrar na fila: pagamento confirmado, sinal recebido, arte aprovada, medida conferida. E defina quem libera, normalmente o gestor. Isso evita o erro mais caro da fábrica pequena: produzir o que não vai ser pago ou o que vai voltar por estar errado.</p>
+
+        <h3>3. Uma fila visível por setor</h3>
+        <p>Cada setor (corte, impressão, montagem, solda, pintura, expedição) precisa ver a própria fila em ordem de prioridade. O formato mais simples é o quadro kanban: colunas como <em>aguardando</em>, <em>em produção</em>, <em>pausado</em> e <em>finalizado</em>. O operador atualiza o status quando começa e quando termina. Com isso, o gestor enxerga gargalos sem precisar perguntar a ninguém.</p>
+
+        <h3>4. Estoque com saldo real e estoque mínimo</h3>
+        <p>O estoque só ajuda se o saldo for confiável. Para isso, toda entrada, saída e ajuste de inventário precisa ser lançado, nunca “corrigido na mão”. Para cada material crítico (bobina, chapa, MDF, resina, cola, tinta), defina um <strong>estoque mínimo</strong>: o volume que cobre o consumo durante o prazo de reposição do fornecedor, com uma margem de segurança. Abaixo dele, o sistema avisa antes de faltar.</p>
+
+        <h3>5. Cliente avisado em cada etapa</h3>
+        <p>Boa parte das ligações de “meu pedido já saiu?” desaparece quando o cliente recebe um aviso automático: pagamento aprovado, em produção, pronto, saiu para entrega. Além de liberar a equipe, isso passa uma imagem de organização que vira argumento de venda.</p>
+
+        <h2>Plano de 4 semanas para implantar</h2>
+        <p>Não tente mudar tudo de uma vez. Este roteiro funciona bem em fábricas de 10 a 200 pessoas:</p>
+        <ol>
+          <li><strong>Semana 1, mapear:</strong> desenhe o caminho de um pedido, da primeira mensagem até a entrega. Liste os setores, quem decide cada etapa e os 10 a 20 materiais que mais param a produção quando faltam.</li>
+          <li><strong>Semana 2, registrar:</strong> todo pedido novo passa a ser registrado no lugar único, com o critério de liberação definido. Cadastre clientes e produtos (se já estão em planilha, importe).</li>
+          <li><strong>Semana 3, produzir pela fila:</strong> os setores passam a trabalhar pela fila e a atualizar o status. Lance o saldo inicial dos materiais críticos e configure o estoque mínimo.</li>
+          <li><strong>Semana 4, medir e avisar:</strong> ligue os avisos ao cliente e comece a acompanhar os indicadores abaixo em uma reunião curta e semanal.</li>
+        </ol>
+        <p>A primeira semana é a mais importante. Fábrica que pula o mapeamento costuma só levar a bagunça da planilha para dentro de um sistema.</p>
+
+        <h2>Os indicadores que o gestor deve acompanhar</h2>
+        <p>Comece com poucos números, olhados toda semana:</p>
+        <ul>
+          <li><strong>Pedidos atrasados:</strong> quantos passaram do prazo prometido e em qual setor estavam parados.</li>
+          <li><strong>Tempo médio de produção:</strong> da liberação até o pedido ficar pronto. Se sobe, há gargalo.</li>
+          <li><strong>Paradas por falta de material:</strong> quantas vezes e quantas horas. A meta é chegar a zero.</li>
+          <li><strong>Itens abaixo do estoque mínimo:</strong> a lista de compras da semana.</li>
+          <li><strong>Pedidos aguardando liberação:</strong> pagamento ou aprovação pendente, ou seja, faturamento parado.</li>
+        </ul>
+
+        <h2>Planilha, ERP ou plataforma de gestão industrial?</h2>
+        <div class="tabela-rolagem">
+          <table class="tabela">
+            <thead>
+              <tr><th scope="col"></th><th scope="col">Planilha e WhatsApp</th><th scope="col">ERP tradicional</th><th scope="col">Plataforma de gestão industrial</th></tr>
+            </thead>
+            <tbody>
+              <tr><th scope="row">Foco</th><td>Anotação</td><td>Fiscal, financeiro e contábil</td><td>Pedido, produção, estoque e entrega</td></tr>
+              <tr><th scope="row">Implantação</th><td>Imediata</td><td>Meses</td><td>Semanas</td></tr>
+              <tr><th scope="row">Fila por setor</th><td>Não</td><td>Depende do módulo</td><td>Sim, em tempo real</td></tr>
+              <tr><th scope="row">Uso no celular pelo operador</th><td>Limitado</td><td>Raro</td><td>Sim</td></tr>
+              <tr><th scope="row">Aviso ao cliente</th><td>Manual</td><td>Raro</td><td>Automático</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>Não é uma escolha excludente. Muitas fábricas mantêm o ERP para emitir nota fiscal e cuidar do financeiro e usam uma plataforma de gestão industrial para o chão de fábrica: o pedido entra, passa pela produção e o status volta para o ERP.</p>
+
+        <h2>Erros comuns ao organizar a produção</h2>
+        <ul>
+          <li><strong>Liberar pedido sem critério:</strong> “depois a gente confere o pagamento” vira prejuízo.</li>
+          <li><strong>Estoque que ninguém lança:</strong> saldo errado é pior que nenhum saldo, porque gera confiança falsa.</li>
+          <li><strong>Sistema que só o escritório usa:</strong> se o operador não atualiza o status, a fila não reflete a realidade.</li>
+          <li><strong>Querer medir tudo no primeiro mês:</strong> comece com os cinco indicadores acima.</li>
+        </ul>
+
+        <h2>Resumo</h2>
+        <p>Um bom controle de produção na pequena fábrica se apoia em cinco pilares: pedido registrado em um só lugar, critério de liberação, fila visível por setor, estoque com mínimo e aviso ao cliente. Com um plano de 4 semanas e poucos indicadores, dá para sair da planilha e do WhatsApp sem parar a fábrica.</p>
+      </div>
+
+      <aside class="artigo-cta">
+        <h2>Quer ver esse fluxo funcionando na sua fábrica?</h2>
+        <p>O FábricaFlow é uma plataforma de gestão industrial que reúne pedido, aprovação do gestor, produção por setor, estoque com alerta e aviso automático ao cliente. Em 20 minutos, por vídeo, mostramos o fluxo aplicado à sua rotina.</p>
+        <a class="botao" href="/#contato">Agendar demonstração de 20 min</a>
+        <p class="artigo-cta-links">Veja também: <a href="/segmentos/papel-e-embalagens/">papel e embalagens</a> · <a href="/segmentos/moveis-e-marcenaria/">móveis e marcenaria</a> · <a href="/segmentos/metalurgia-e-serralheria/">metalurgia e serralheria</a></p>
+      </aside>
+    </div>
+  </article>
+</main>
+
+<footer class="rodape">
+  <div class="faixa rodape-inner">
+    <p><strong>FábricaFlow</strong> · Plataforma de gestão industrial</p>
+    <nav class="rodape-links" aria-label="Segmentos">
+      <a href="/segmentos/papel-e-embalagens/">Papel e embalagens</a>
+      <a href="/segmentos/moveis-e-marcenaria/">Móveis e marcenaria</a>
+      <a href="/segmentos/metalurgia-e-serralheria/">Metalurgia e serralheria</a>
+      <a href="/blog/">Blog</a>
+      <a href="/#perguntas">Perguntas frequentes</a>
+    </nav>
+    <p>Igor Bergara · igorbergara@fabricaflow.online · (11) 97874-6889</p>
+  </div>
+</footer>
+</body>
+</html>

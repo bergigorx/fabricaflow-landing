@@ -33,6 +33,10 @@ Indústrias que seguem o fluxo pedido → produção → entrega e controlam est
 - Condição de lançamento: implantação completa de R$ 6.000 por R$ 600 para a primeira empresa que fechar.
 - Próximo passo: demonstração de 20 minutos por vídeo, agendada em https://fabricaflow.online/#contato
 
+## Artigos
+
+- Controle de produção na pequena fábrica: como sair da planilha e do WhatsApp: https://fabricaflow.online/blog/controle-de-producao-pequena-fabrica/
+
 ## Perguntas frequentes
 
 ### O que é o FábricaFlow?
