@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+  <url>
+    <loc>https://fabricaflow.online/</loc>
+    <lastmod>2026-10-27</lastmod>
+    <image:image><image:loc>https://fabricaflow.online/img/dashboard.webp</image:loc></image:image>
+    <image:image><image:loc>https://fabricaflow.online/img/producao.webp</image:loc></image:image>
+    <image:image><image:loc>https://fabricaflow.online/img/estoque.webp</image:loc></image:image>
+    <video:video>
+      <video:thumbnail_loc>https://fabricaflow.online/img/video-capa.webp</video:thumbnail_loc>
+      <video:title>FábricaFlow: o fluxo completo do pedido à entrega</video:title>
+      <video:description>Demonstração narrada da plataforma de gestão industrial FábricaFlow: pedido, aprovação do gestor, produção por setor, estoque e aviso ao cliente.</video:description>
+      <video:content_loc>https://fabricaflow.online/video/fabricaflow-demo.mp4</video:content_loc>
+      <video:duration>112</video:duration>
+    </video:video>
+  </url>
+  <url><loc>https://fabricaflow.online/segmentos/papel-e-embalagens/</loc><lastmod>2026-10-27</lastmod></url>
+  <url><loc>https://fabricaflow.online/segmentos/moveis-e-marcenaria/</loc><lastmod>2026-10-27</lastmod></url>
+  <url><loc>https://fabricaflow.online/segmentos/metalurgia-e-serralheria/</loc><lastmod>2026-10-27</lastmod></url>
+</urlset>

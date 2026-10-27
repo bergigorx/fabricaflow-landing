@@ -116,10 +116,10 @@ function selecionarAba(aba, focar) {
     outra.tabIndex = ativa ? 0 : -1;
   });
   const tela = aba.dataset.tela;
-  telaImg.src = `img/${tela}.webp`;
-  telaImg.srcset = `img/${tela}-800.webp 800w, img/${tela}.webp 1440w`;
+  telaImg.src = `/img/${tela}.webp`;
+  telaImg.srcset = `/img/${tela}-800.webp 800w, /img/${tela}.webp 1440w`;
   telaImg.alt = aba.dataset.alt;
-  telaLink.href = `img/${tela}.webp`;
+  telaLink.href = `/img/${tela}.webp`;
   telaLegenda.textContent = aba.dataset.legenda;
   telaTitulo.textContent = `fabricaflow · ${aba.textContent}`;
   painel.setAttribute("aria-labelledby", aba.id);
@@ -144,7 +144,7 @@ abas.forEach((aba, i) => {
 // Pré-carrega as outras telas depois que a página terminar de carregar.
 window.addEventListener("load", () => {
   const largura = window.innerWidth <= 960 ? "-800" : "";
-  abas.slice(1).forEach((aba) => { new Image().src = `img/${aba.dataset.tela}${largura}.webp`; });
+  abas.slice(1).forEach((aba) => { new Image().src = `/img/${aba.dataset.tela}${largura}.webp`; });
 });
 
 /* ---------- Botão fixo no celular: aparece depois do topo e some quando o formulário aparece ---------- */

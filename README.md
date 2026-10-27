@@ -31,6 +31,16 @@ O envio é um `POST` em `application/x-www-form-urlencoded` (sem pré-verificaç
 
 Dica para os e-mails em lote: use links com UTM, por exemplo `...?utm_source=email&utm_campaign=lote-1`, para saber de onde veio cada pedido.
 
+## SEO e buscas por IA
+
+- **Fonte única:** edite o `index.html` e rode `python3 scripts/gerar_segmentos.py` para regerar as páginas de `segmentos/` (papel e embalagens, móveis e marcenaria, metalurgia e serralheria). Cada uma tem endereço, título, H1 e trechos próprios, para o Google indexar buscas como "sistema de gestão para fábrica de móveis". O `?seg=` dos e-mails continua funcionando na página principal.
+- **Dados estruturados (JSON-LD):** Organization, WebSite, SoftwareApplication, VideoObject e FAQPage no `<head>`; BreadcrumbList nas páginas de segmento. As perguntas frequentes visíveis e o JSON-LD devem dizer a mesma coisa.
+- **`robots.txt`** libera buscadores e robôs de IA (ChatGPT, Claude, Gemini, Perplexity) e aponta o `sitemap.xml`. Ao criar página nova, inclua no sitemap.
+- **`llms.txt`:** resumo do produto para assistentes de IA. Mantenha em dia com a página.
+- **IndexNow:** o arquivo `a17806be07edc96b189f28b540d06687.txt` na raiz autoriza avisar Bing e Yandex de páginas novas ou alteradas (o ChatGPT busca pelo índice do Bing):
+  `curl -s -X POST https://api.indexnow.org/indexnow -H 'Content-Type: application/json' -d '{"host":"fabricaflow.online","key":"a17806be07edc96b189f28b540d06687","urlList":["https://fabricaflow.online/"]}'`
+- **Imagens de compartilhamento:** `img/og-fabricaflow.jpg` (1200×630), `img/logo-fabricaflow.png`, `favicon.svg`, `apple-touch-icon.png`.
+
 ## Segurança
 
 Veja [SECURITY.md](SECURITY.md).

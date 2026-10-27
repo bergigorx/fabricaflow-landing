@@ -1,0 +1,76 @@
+# FábricaFlow
+
+> FábricaFlow é uma plataforma de gestão industrial (software web, SaaS) para pequenas e médias fábricas no Brasil que recebem pedidos, produzem e entregam. Conecta em um só sistema o pedido (inclusive pelo WhatsApp), a aprovação do pagamento pelo gestor, a produção por setor, o controle de estoque e o aviso automático ao cliente.
+
+Site oficial: https://fabricaflow.online
+Contato comercial: Igor Bergara, igorbergara@fabricaflow.online, WhatsApp +55 11 97874-6889
+Idioma: português (Brasil). Atende fábricas em todo o Brasil.
+
+## O que a plataforma faz
+
+- Pedidos: registro de pedidos recebidos pelo WhatsApp e por outros canais, com histórico de cada mudança.
+- Aprovação de pagamento: o gestor confere o comprovante e aprova antes de o pedido ir para a produção. Nenhum pedido entra em produção sem essa aprovação.
+- Produção: fila por setor em formato kanban; o operador inicia, pausa, conclui e marca a saída para entrega.
+- Estoque: saldo de materiais e produtos com entradas, saídas, ajustes de inventário e alerta de estoque mínimo.
+- Notificações: aviso automático ao cliente a cada etapa (aprovado, em produção, pronto, saiu para entrega, entregue).
+- Relatórios: produção, prazos e faturamento estimado.
+- Usuários e perfis: administrador, gestor e operador, cada um vendo só o que precisa.
+- Importação de clientes e produtos por planilha (Excel ou CSV).
+- Modular: cada fábrica contrata só os módulos que usa. Quem já tem ERP pode usar só produção, estoque e notificações; integração com ERPs como Bling e Omie sob demanda.
+
+## Para quem é
+
+Indústrias que seguem o fluxo pedido → produção → entrega e controlam estoque de algum material:
+- Papel e embalagens (papelão ondulado, papel cartão, tissue, caixas, envelopes): https://fabricaflow.online/segmentos/papel-e-embalagens/
+- Móveis e marcenaria (planejados, corporativos, sob medida, estofados): https://fabricaflow.online/segmentos/moveis-e-marcenaria/
+- Metalurgia e serralheria (estruturas metálicas, esquadrias, usinagem, caldeiraria): https://fabricaflow.online/segmentos/metalurgia-e-serralheria/
+- Também plásticos, química, alimentos e outras operações sob encomenda.
+
+## Implantação e preço
+
+- Implantação acompanhada em média de 2 meses: diagnóstico, configuração e treinamento, operação assistida.
+- Mensalidade conforme o porte da operação, o número de usuários e os módulos contratados.
+- Condição de lançamento: implantação completa de R$ 6.000 por R$ 600 para a primeira empresa que fechar.
+- Próximo passo: demonstração de 20 minutos por vídeo, agendada em https://fabricaflow.online/#contato
+
+## Perguntas frequentes
+
+### O que é o FábricaFlow?
+
+O FábricaFlow é uma plataforma de gestão industrial para fábricas que recebem pedidos, produzem e entregam. Ela conecta em um só sistema o registro do pedido (inclusive pelo WhatsApp), a aprovação do pagamento pelo gestor, a fila de produção por setor, o controle de estoque e o aviso automático ao cliente a cada etapa.
+
+### Para que tipo de fábrica o FábricaFlow serve?
+
+Para qualquer indústria que siga o fluxo pedido, produção e entrega e que precise controlar estoque de materiais ou produtos: papel e embalagens, papelão ondulado, móveis e marcenaria, metalurgia e serralheria, plásticos, química e alimentos, entre outras. Setores, materiais e mensagens são configurados para a rotina de cada fábrica.
+
+### O FábricaFlow substitui o ERP?
+
+Não precisa substituir. A empresa contrata só os módulos que fazem sentido: quem já tem ERP costuma usar o FábricaFlow para produção, estoque e avisos ao cliente, enquanto o ERP continua emitindo a nota fiscal. A integração com ERPs como Bling e Omie é feita sob demanda na implantação.
+
+### Quais módulos a plataforma tem?
+
+Pedidos, aprovação de pagamento, produção por setor em kanban, controle de estoque com alerta de mínimo, relatórios, notificações ao cliente e importação de clientes e produtos por planilha. Cada empresa ativa apenas os módulos que usa.
+
+### Como funciona o pedido pelo WhatsApp?
+
+O cliente pede pela conversa como já está acostumado. O pedido fica registrado com histórico, o comprovante de pagamento é anexado e o gestor aprova antes de liberar para a produção. Depois, o cliente recebe um aviso a cada etapa: aprovado, em produção, pronto e saiu para entrega. O WhatsApp é conectado ao número da própria fábrica na implantação.
+
+### Nenhum pedido vai para a produção sem pagamento?
+
+Isso mesmo. A plataforma só libera o pedido para a fila de produção depois que o gestor confere o comprovante e aprova o pagamento. Cada mudança de situação fica registrada no histórico do pedido.
+
+### Precisa instalar alguma coisa?
+
+Não. O FábricaFlow funciona no navegador, no computador e no celular. Gestores, atendentes e operadores entram com o próprio usuário e veem apenas o que o perfil deles permite.
+
+### Quanto tempo leva a implantação?
+
+A média é de 2 meses, já incluindo a operação assistida. São três fases: diagnóstico da operação, configuração e treinamento, e acompanhamento próximo no dia a dia até a equipe ganhar autonomia.
+
+### Quanto custa o FábricaFlow?
+
+A mensalidade é definida conforme o porte da operação, o número de usuários e os módulos contratados. Na condição de lançamento, a implantação completa sai de R$ 6.000 por R$ 600 para a primeira empresa que fechar.
+
+### Os dados da minha fábrica ficam seguros?
+
+Sim. Os dados ficam em servidores no Brasil (São Paulo), cada empresa só enxerga os próprios dados e o acesso é separado por perfil (administrador, gestor e operador). A plataforma foi pensada para atender à LGPD.
