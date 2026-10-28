@@ -52,6 +52,7 @@ Veja [SECURITY.md](SECURITY.md).
 ## Arquivos
 
 - `index.html`, `style.css`, `main.js`: a página.
+- `sobre/`, `privacidade/`, `termos/`: Quem somos, Política de Privacidade (LGPD) e Termos de Uso, linkados no rodapé de todas as páginas. São sinais de confiança para o Google e para verificadores como o ScamAdviser: mantenha os canais oficiais e as datas de atualização em dia.
 - `menu.js`: menu lateral do celular (botão ☰), carregado em todas as páginas. Os links do menu ficam no HTML de cada página; ao mudar o menu, edite `index.html` e os arquivos de `blog/` e rode `scripts/gerar_segmentos.py`.
 - `fonts/`: Archivo e Inter em WOFF2, servidas pelo próprio site (licença SIL OFL 1.1 nos arquivos `OFL-*.txt`).
 - `.well-known/security.txt`: contato para relatar falhas de segurança.
