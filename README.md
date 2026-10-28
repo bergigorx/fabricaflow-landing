@@ -41,6 +41,10 @@ Dica para os e-mails em lote: use links com UTM, por exemplo `...?utm_source=ema
   `curl -s -X POST https://api.indexnow.org/indexnow -H 'Content-Type: application/json' -d '{"host":"fabricaflow.online","key":"a17806be07edc96b189f28b540d06687","urlList":["https://fabricaflow.online/"]}'`
 - **Imagens de compartilhamento:** `img/og-fabricaflow.jpg` (1200×630), `img/logo-fabricaflow.png`, `favicon.svg`, `apple-touch-icon.png`.
 
+## Visitas (Cloudflare Web Analytics)
+
+As visitas aparecem no painel da Cloudflare, em **Web Analytics → fabricaflow.online** (visitas, páginas, origem, país e aparelho), sem cookies. O script fica no fim do `<body>` de cada página; ao criar página nova, copie o bloco "Cloudflare Web Analytics" e a CSP de uma página existente (as páginas de `segmentos/` herdam do `index.html`).
+
 ## Segurança
 
 Veja [SECURITY.md](SECURITY.md).

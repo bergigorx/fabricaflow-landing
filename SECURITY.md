@@ -7,8 +7,9 @@ Encontrou uma falha de segurança na página https://fabricaflow.online? Escreva
 ## O que já está protegido
 
 - **Site estático no GitHub Pages:** não há servidor, banco de dados nem login para invadir. O GitHub entrega a página por uma CDN com proteção contra DDoS e HTTPS obrigatório.
-- **Content-Security-Policy:** a página só carrega scripts, estilos, fontes, imagens e vídeo do próprio domínio e só envia dados para `hooks.zapier.com`. Isso bloqueia scripts injetados e envios para outros endereços.
-- **Sem dependências de terceiros:** nenhuma biblioteca externa. As fontes são servidas pelo próprio site (sem Google Fonts), o que também evita enviar o IP do visitante ao Google (LGPD).
+- **Content-Security-Policy:** a página só carrega estilos, fontes, imagens e vídeo do próprio domínio; scripts só do próprio domínio e do Cloudflare Web Analytics (`static.cloudflareinsights.com`); e só envia dados para `hooks.zapier.com` (formulário) e `cloudflareinsights.com` (contagem de visitas). Isso bloqueia scripts injetados e envios para outros endereços.
+- **Contagem de visitas sem cookies:** o Cloudflare Web Analytics conta visitas, páginas e origem do acesso de forma agregada, sem cookies e sem identificar visitantes. Por isso não há aviso de cookies.
+- **Sem bibliotecas de terceiros:** além do script de contagem de visitas da Cloudflare, nenhuma biblioteca externa. As fontes são servidas pelo próprio site (sem Google Fonts), o que também evita enviar o IP do visitante ao Google (LGPD).
 - **Formulário:**
   - campo isca invisível e tempo mínimo de 3 segundos, para descartar robôs simples;
   - limite de um envio por minuto por navegador;

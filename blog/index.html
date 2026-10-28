@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; media-src 'self'; connect-src https://hooks.zapier.com; base-uri 'none'; form-action 'none'; object-src 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' https://static.cloudflareinsights.com; style-src 'self'; img-src 'self' data:; font-src 'self'; media-src 'self'; connect-src https://hooks.zapier.com https://cloudflareinsights.com; base-uri 'none'; form-action 'none'; object-src 'none'">
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <title>Blog FábricaFlow: gestão industrial na prática</title>
 <meta name="description" content="Artigos práticos sobre gestão industrial para pequenas e médias fábricas: controle de produção, estoque, pedidos e atendimento ao cliente.">
@@ -136,5 +136,7 @@
   </div>
 </footer>
 <script src="/menu.js?v=2" defer></script>
+<!-- Cloudflare Web Analytics: contagem de visitas sem cookies -->
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "455bed71444a4bc186419a70af66d7df"}'></script>
 </body>
 </html>

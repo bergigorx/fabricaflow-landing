@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; media-src 'self'; connect-src https://hooks.zapier.com; base-uri 'none'; form-action 'none'; object-src 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' https://static.cloudflareinsights.com; style-src 'self'; img-src 'self' data:; font-src 'self'; media-src 'self'; connect-src https://hooks.zapier.com https://cloudflareinsights.com; base-uri 'none'; form-action 'none'; object-src 'none'">
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <title>Sistema de gestão para fábricas de móveis | FábricaFlow</title>
 <meta name="description" content="Gestão industrial para fábricas de móveis e marcenarias: pedidos do WhatsApp, produção por setor, estoque de MDF e ferragens e aviso ao cliente.">
@@ -751,5 +751,7 @@
 
 <script src="/main.js?v=4"></script>
 <script src="/menu.js?v=2" defer></script>
+<!-- Cloudflare Web Analytics: contagem de visitas sem cookies -->
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "455bed71444a4bc186419a70af66d7df"}'></script>
 </body>
 </html>
