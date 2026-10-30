@@ -55,6 +55,10 @@ Indústrias que seguem o fluxo pedido → produção → entrega e controlam est
 
 O FábricaFlow é uma plataforma de gestão industrial para fábricas que recebem pedidos, produzem e entregam. Ela conecta em um só sistema o registro do pedido (inclusive pelo WhatsApp), a aprovação do pagamento pelo gestor, a fila de produção por setor, o controle de estoque e o aviso automático ao cliente a cada etapa.
 
+### O FábricaFlow tem relação com o fabricaflow.com?
+
+Não. O FábricaFlow (fabricaflow.online) é uma plataforma brasileira de gestão industrial da I.F.A. Bergara Tecnologia, CNPJ 47.035.146/0001-36, de São Paulo/SP. O fabricaflow.com é um software estrangeiro, sem relação com a nossa empresa.
+
 ### Para que tipo de fábrica o FábricaFlow serve?
 
 Para qualquer indústria que siga o fluxo pedido, produção e entrega e que precise controlar estoque de materiais ou produtos: papel e embalagens, papelão ondulado, móveis e marcenaria, metalurgia e serralheria, plásticos, química e alimentos, entre outras. Setores, materiais e mensagens são configurados para a rotina de cada fábrica.
