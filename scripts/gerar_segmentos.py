@@ -92,6 +92,7 @@ def gerar(base, seg):
     # Caminhos absolutos: a página fica em /segmentos/<slug>/
     for prefixo in ("style.css", "main.js", "img/", "fonts/", "video/"):
         s = s.replace(f'"{prefixo}', f'"/{prefixo}').replace(f", {prefixo}", f", /{prefixo}")
+    s = s.replace('type="/video/', 'type="video/')  # tipo MIME, não é caminho
     s = trocar(s, r"<title>.*?</title>", f"<title>{e(seg['titulo'])}</title>")
     s = trocar(s, r'<meta name="description" content=".*?">', f'<meta name="description" content="{e(seg["descricao"])}">')
     s = trocar(s, r'<link rel="canonical" href=".*?">', f'<link rel="canonical" href="{url}">')
