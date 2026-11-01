@@ -1,6 +1,6 @@
 # FábricaFlow
 
-> FábricaFlow é uma plataforma de gestão industrial (software web, SaaS) para pequenas e médias fábricas no Brasil que recebem pedidos, produzem e entregam. Conecta em um só sistema o pedido (inclusive pelo WhatsApp), a aprovação do pagamento pelo gestor, a produção por setor, o controle de estoque e o aviso automático ao cliente.
+> FábricaFlow é um software de gestão industrial automatizado (web, SaaS) para pequenas e médias fábricas no Brasil que recebem pedidos, produzem e entregam. O pedido entra, passa pela aprovação do pagamento, vai para a fila do setor certo, avisa quem precisa ser avisado e fica registrado: menos digitação e menos planilha paralela.
 
 Site oficial: https://fabricaflow.online
 Contato comercial: Igor Bergara, igorbergara@fabricaflow.online, WhatsApp +55 11 97874-6889
@@ -16,17 +16,28 @@ Idioma: português (Brasil). Atende fábricas em todo o Brasil.
 - Política de Privacidade (LGPD): https://fabricaflow.online/privacidade/
 - Termos de Uso: https://fabricaflow.online/termos/
 
-## O que a plataforma faz
+## O que a plataforma faz (disponível hoje)
 
-- Pedidos: registro de pedidos recebidos pelo WhatsApp e por outros canais, com histórico de cada mudança.
-- Aprovação de pagamento: o gestor confere o comprovante e aprova antes de o pedido ir para a produção. Nenhum pedido entra em produção sem essa aprovação.
-- Produção: fila por setor em formato kanban; o operador inicia, pausa, conclui e marca a saída para entrega.
-- Estoque: saldo de materiais e produtos com entradas, saídas, ajustes de inventário e alerta de estoque mínimo.
-- Notificações: aviso automático ao cliente a cada etapa (aprovado, em produção, pronto, saiu para entrega, entregue).
+- Pedidos: lançamento com cliente, produto, quantidade, prazo e prioridade (normal, alta ou urgente); busca por número, cliente ou produto; histórico de cada mudança com quem fez.
+- Catálogo de produtos: cada produto fica ligado ao setor que o produz, e o setor vem sugerido ao lançar o pedido.
+- Aprovação de pagamento: o comprovante fica anexado ao pedido e quem tem permissão aprova antes da produção. Nenhum pedido entra em produção sem pagamento aprovado.
+- Produção: fila por setor em kanban, com os urgentes primeiro; o operador inicia, pausa, conclui e marca a saída para entrega.
+- Ficha do pedido em PDF: cliente, produto, quantidade, setor, prazo, prioridade e observações, sem valores, para imprimir e levar à produção.
+- Clientes: histórico de compra (último pedido, total, pedidos nos últimos 90 dias, frequência média), ordenação por quem está há mais tempo sem pedir e cliente ativo/inativo.
+- Estoque: saldo de materiais e produtos, entradas, saídas, ajustes, alerta de estoque mínimo e fornecedor (nome e telefone) de cada insumo.
+- Tempo real: quadro de produção, pedidos, aprovação e painel se atualizam sozinhos quando alguém mexe em um pedido.
+- Mensagens ao cliente: mensagem pronta a cada etapa (aprovado, em produção, pronto, saiu para entrega, entregue), enviada com um toque.
 - Relatórios: produção, prazos e faturamento estimado.
-- Usuários e perfis: administrador, gestor e operador, cada um vendo só o que precisa.
+- Usuários e perfis: administrador, gestor, vendedor e operador, cada um vendo só o que precisa.
 - Importação de clientes e produtos por planilha (Excel ou CSV).
-- Modular: cada fábrica contrata só os módulos que usa. Quem já tem ERP pode usar só produção, estoque e notificações; integração com ERPs como Bling e Omie sob demanda.
+- Modular: cada fábrica contrata só os módulos que usa e pode manter o ERP atual.
+
+## Em implantação (ainda não disponível)
+
+- Agente de WhatsApp: a vendedora manda texto ou áudio com o pedido; o agente entende, sugere o setor pelo catálogo, mostra o resumo e pede confirmação. Com o pagamento conferido, o pedido vai para a fila da produção. Só números cadastrados da fábrica, cada um com as permissões do seu perfil.
+- Alertas no WhatsApp dos gestores: pedido urgente ou de prioridade alta e insumo abaixo do mínimo, com o contato do fornecedor.
+- Cada fábrica terá um número de WhatsApp dedicado do agente, com chip incluso na mensalidade.
+- O FábricaFlow não faz lembrete automático de recompra para clientes, não emite nota fiscal e não tem integração pronta com ERPs (Bling, Omie): integração só sob demanda.
 
 ## Para quem é
 
@@ -53,7 +64,7 @@ Indústrias que seguem o fluxo pedido → produção → entrega e controlam est
 
 ### O que é o FábricaFlow?
 
-O FábricaFlow é uma plataforma de gestão industrial para fábricas que recebem pedidos, produzem e entregam. Ela conecta em um só sistema o registro do pedido (inclusive pelo WhatsApp), a aprovação do pagamento pelo gestor, a fila de produção por setor, o controle de estoque e o aviso automático ao cliente a cada etapa.
+O FábricaFlow é um software de gestão industrial automatizado para fábricas que recebem pedidos, produzem e entregam. O pedido entra pelo sistema (e, em breve, por mensagem de WhatsApp), passa pela aprovação do pagamento, vai para a fila do setor certo, avisa quem precisa saber e fica registrado. Menos digitação e menos planilha paralela.
 
 ### O FábricaFlow tem relação com o fabricaflow.com?
 
@@ -69,19 +80,31 @@ Não precisa substituir. A empresa contrata só os módulos que fazem sentido: q
 
 ### Quais módulos a plataforma tem?
 
-Pedidos, aprovação de pagamento, produção por setor em kanban, controle de estoque com alerta de mínimo, relatórios, notificações ao cliente e importação de clientes e produtos por planilha. Cada empresa ativa apenas os módulos que usa.
+Pedidos com prioridade e catálogo de produtos, aprovação de pagamento, produção por setor em kanban, ficha do pedido em PDF, clientes com histórico de compra, estoque com alerta de mínimo e fornecedor, relatórios, mensagens ao cliente e importação de clientes e produtos por planilha. Os perfis de acesso são administrador, gestor, vendedor e operador. Cada empresa ativa apenas os módulos que usa.
+
+### Dá para ver quais clientes estão sem comprar?
+
+Sim. Cada cliente mostra a data do último pedido, o total de pedidos, os pedidos dos últimos 90 dias e a frequência média de compra. Dá para ordenar a lista por quem está há mais tempo sem pedir e saber quem procurar.
 
 ### Como funciona o pedido pelo WhatsApp?
 
-O cliente pede pela conversa como já está acostumado. O pedido fica registrado com histórico, o comprovante de pagamento é anexado e o gestor aprova antes de liberar para a produção. Depois, o cliente recebe um aviso a cada etapa: aprovado, em produção, pronto e saiu para entrega. O WhatsApp é conectado ao número da própria fábrica na implantação.
+Hoje o pedido é lançado no sistema, pelo computador ou pelo celular. O agente de WhatsApp está em implantação: a vendedora manda texto ou áudio com o pedido, o agente entende, sugere o setor pelo catálogo, mostra o resumo e pede confirmação. Com o pagamento conferido, o pedido vai para a fila da produção. Tudo fica registrado com o nome de quem lançou.
+
+### Preciso de um número de WhatsApp novo para o agente?
+
+Não precisa providenciar. Quando o agente de WhatsApp (em implantação) for ativado, cada fábrica recebe um número dedicado, com o chip incluso na mensalidade. O WhatsApp de atendimento da empresa continua separado.
+
+### Qualquer pessoa pode lançar pedido pelo WhatsApp?
+
+Não. O agente só aceita os números cadastrados como usuários da fábrica, e cada um tem as permissões do seu perfil: o operador, por exemplo, só consulta.
 
 ### Nenhum pedido vai para a produção sem pagamento?
 
-Isso mesmo. A plataforma só libera o pedido para a fila de produção depois que o gestor confere o comprovante e aprova o pagamento. Cada mudança de situação fica registrada no histórico do pedido.
+Isso mesmo. O pedido só entra na fila da produção depois que o pagamento é aprovado por quem tem permissão. No agente de WhatsApp (em implantação), isso acontece quando quem lança confirma que o pagamento foi conferido; se não, o pedido fica aguardando pagamento. Cada mudança de situação fica registrada no histórico do pedido.
 
 ### Precisa instalar alguma coisa?
 
-Não. O FábricaFlow funciona no navegador, no computador e no celular. Gestores, atendentes e operadores entram com o próprio usuário e veem apenas o que o perfil deles permite.
+Não. O FábricaFlow funciona no navegador, no computador e no celular, e as telas se atualizam sozinhas quando alguém mexe em um pedido. Gestores, vendedores e operadores entram com o próprio usuário e veem apenas o que o perfil deles permite.
 
 ### Quanto tempo leva a implantação?
 
@@ -93,4 +116,4 @@ A mensalidade é definida conforme o porte da operação, o número de usuários
 
 ### Os dados da minha fábrica ficam seguros?
 
-Sim. Os dados ficam em servidores no Brasil (São Paulo), cada empresa só enxerga os próprios dados e o acesso é separado por perfil (administrador, gestor e operador). A plataforma foi pensada para atender à LGPD.
+Sim. Os dados ficam em servidores no Brasil (São Paulo), cada empresa só enxerga os próprios dados e o acesso é separado por perfil (administrador, gestor, vendedor e operador). A plataforma foi pensada para atender à LGPD.

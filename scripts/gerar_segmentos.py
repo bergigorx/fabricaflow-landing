@@ -21,10 +21,10 @@ SEGMENTOS = [
         "titulo": "Sistema de gestão para fábricas de embalagens | FábricaFlow",
         "descricao": "Gestão industrial para fábricas de papel, papelão e embalagens: pedidos do WhatsApp, produção por setor, estoque de bobinas e aviso ao cliente.",
         "h1": "Sistema de gestão para fábricas de papel, papelão e embalagens",
-        "hero_sub": "Atendimento, aprovação, produção, estoque e aviso ao cliente conectados, para fábricas de papelão ondulado, papel cartão, papel e tissue e embalagens. Sem digitação manual, com aprovação do gestor.",
+        "hero_sub": "O pedido entra, passa pela aprovação do pagamento, vai para a fila do setor certo e avisa quem precisa saber. Para fábricas de papelão ondulado, papel cartão, papel e tissue e embalagens.",
         "chips": ["Papelão ondulado", "Papel cartão", "Papel e tissue", "Caixas e embalagens", "Envelopes e sacolas"],
-        "pedido": "Bom dia! Preciso de 2.000 caixas 40×30×20, onda B, kraft.",
-        "orcamento": "Bom dia! Orçamento: 2.000 caixas 40×30×20, onda B kraft. Total R$ X.XXX,XX. Prazo de 7 dias úteis. Confirma?",
+        "pedido": "A Embalagens Sul pediu 2.000 caixas 40×30×20, onda B, kraft, para sexta. Urgente.",
+        "orcamento": "Pedido: Embalagens Sul · 2.000 caixas 40×30×20, onda B kraft · entrega sexta · prioridade Urgente · setor Onduladeira. O pagamento já foi conferido?",
         "material": "Bobina, cola ou tinta que acabou sem ninguém perceber a tempo.",
         "setores": ["Onduladeira", "Impressão flexográfica", "Corte e vinco", "Colagem", "Máquina de papel", "Rebobinadeira", "Embalagem", "Expedição"],
         "formulario": "Papelão ondulado",
@@ -108,8 +108,8 @@ def gerar(base, seg):
     # Navegação: âncoras da página principal continuam na própria página
     s = s.replace('href="#inicio" aria-label="FábricaFlow, início"', 'href="/" aria-label="FábricaFlow, página inicial"')
     # Conteúdo do segmento
-    s = trocar(s, r'<p class="sobretitulo">Plataforma de gestão industrial</p>\s*<h1>.*?</h1>',
-               f'<p class="sobretitulo">Plataforma de gestão industrial · {e(seg["nome"])}</p>\n        <h1>{e(seg["h1"])}</h1>')
+    s = trocar(s, r'<p class="sobretitulo">Software de gestão industrial automatizado</p>\s*<h1>.*?</h1>',
+               f'<p class="sobretitulo">Gestão industrial automatizada · {e(seg["nome"])}</p>\n        <h1>{e(seg["h1"])}</h1>')
     s = trocar(s, r'<p class="hero-sub" id="hero-sub">.*?</p>', f'<p class="hero-sub" id="hero-sub">{e(seg["hero_sub"])}</p>')
     s = trocar(s, r'(<ul class="setores-hero" id="setores-hero" aria-label="Setores atendidos">\s*).*?(\s*</ul>)',
                f'<ul class="setores-hero" id="setores-hero" aria-label="Setores atendidos">\n          {lista_li(seg["chips"])}\n        </ul>')

@@ -70,21 +70,23 @@
       "@id": "https://fabricaflow.online/#software",
       "name": "FábricaFlow",
       "applicationCategory": "BusinessApplication",
-      "applicationSubCategory": "Plataforma de gestão industrial",
+      "applicationSubCategory": "Software de gestão industrial",
       "operatingSystem": "Web (navegador no computador e no celular)",
       "inLanguage": "pt-BR",
       "url": "https://fabricaflow.online/",
       "image": "https://fabricaflow.online/img/dashboard.webp",
       "screenshot": "https://fabricaflow.online/img/producao.webp",
-      "description": "Plataforma de gestão industrial para fábricas que recebem pedidos, produzem e entregam: atendimento de pedidos pelo WhatsApp, aprovação de pagamento pelo gestor, produção por setor em kanban, controle de estoque com alerta de mínimo, relatórios e aviso automático ao cliente a cada etapa.",
+      "description": "Software de gestão industrial automatizado para fábricas que recebem pedidos, produzem e entregam: pedidos com prioridade e catálogo de produtos, aprovação de pagamento antes da produção, fila por setor em kanban atualizada em tempo real, ficha do pedido em PDF, clientes com histórico de compra, estoque com alerta de mínimo e mensagens ao cliente a cada etapa. Agente de WhatsApp para lançar pedidos em implantação.",
       "featureList": [
-        "Registro de pedidos recebidos pelo WhatsApp e outros canais",
-        "Aprovação de pagamento pelo gestor antes da produção",
-        "Fila de produção por setor em kanban, atualizada pelo operador",
-        "Controle de estoque de materiais e produtos com alerta de mínimo",
-        "Aviso automático ao cliente a cada etapa do pedido",
+        "Lançamento de pedidos com prioridade (normal, alta, urgente) e setor sugerido pelo catálogo de produtos",
+        "Aprovação de pagamento antes da produção, com comprovante anexado ao pedido",
+        "Fila de produção por setor em kanban, com urgentes primeiro, atualizada em tempo real",
+        "Ficha do pedido em PDF, sem valores, para imprimir e levar à produção",
+        "Clientes com histórico de compra: último pedido, frequência e quem está há mais tempo sem pedir",
+        "Controle de estoque com alerta de mínimo e fornecedor de cada insumo",
+        "Mensagem pronta para avisar o cliente a cada etapa do pedido",
+        "Perfis de acesso: administrador, gestor, vendedor e operador",
         "Relatórios de produção, prazos e faturamento",
-        "Perfis de acesso para administrador, gestor e operador",
         "Importação de clientes e produtos por planilha",
         "Módulos contratados conforme a necessidade da fábrica"
       ],
@@ -122,7 +124,7 @@
       "name": "O que é o FábricaFlow?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "O FábricaFlow é uma plataforma de gestão industrial para fábricas que recebem pedidos, produzem e entregam. Ela conecta em um só sistema o registro do pedido (inclusive pelo WhatsApp), a aprovação do pagamento pelo gestor, a fila de produção por setor, o controle de estoque e o aviso automático ao cliente a cada etapa."
+        "text": "O FábricaFlow é um software de gestão industrial automatizado para fábricas que recebem pedidos, produzem e entregam. O pedido entra pelo sistema (e, em breve, por mensagem de WhatsApp), passa pela aprovação do pagamento, vai para a fila do setor certo, avisa quem precisa saber e fica registrado. Menos digitação e menos planilha paralela."
       }
     },
     {
@@ -154,7 +156,15 @@
       "name": "Quais módulos a plataforma tem?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Pedidos, aprovação de pagamento, produção por setor em kanban, controle de estoque com alerta de mínimo, relatórios, notificações ao cliente e importação de clientes e produtos por planilha. Cada empresa ativa apenas os módulos que usa."
+        "text": "Pedidos com prioridade e catálogo de produtos, aprovação de pagamento, produção por setor em kanban, ficha do pedido em PDF, clientes com histórico de compra, estoque com alerta de mínimo e fornecedor, relatórios, mensagens ao cliente e importação de clientes e produtos por planilha. Os perfis de acesso são administrador, gestor, vendedor e operador. Cada empresa ativa apenas os módulos que usa."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Dá para ver quais clientes estão sem comprar?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sim. Cada cliente mostra a data do último pedido, o total de pedidos, os pedidos dos últimos 90 dias e a frequência média de compra. Dá para ordenar a lista por quem está há mais tempo sem pedir e saber quem procurar."
       }
     },
     {
@@ -162,7 +172,23 @@
       "name": "Como funciona o pedido pelo WhatsApp?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "O cliente pede pela conversa como já está acostumado. O pedido fica registrado com histórico, o comprovante de pagamento é anexado e o gestor aprova antes de liberar para a produção. Depois, o cliente recebe um aviso a cada etapa: aprovado, em produção, pronto e saiu para entrega. O WhatsApp é conectado ao número da própria fábrica na implantação."
+        "text": "Hoje o pedido é lançado no sistema, pelo computador ou pelo celular. O agente de WhatsApp está em implantação: a vendedora manda texto ou áudio com o pedido, o agente entende, sugere o setor pelo catálogo, mostra o resumo e pede confirmação. Com o pagamento conferido, o pedido vai para a fila da produção. Tudo fica registrado com o nome de quem lançou."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Preciso de um número de WhatsApp novo para o agente?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Não precisa providenciar. Quando o agente de WhatsApp (em implantação) for ativado, cada fábrica recebe um número dedicado, com o chip incluso na mensalidade. O WhatsApp de atendimento da empresa continua separado."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Qualquer pessoa pode lançar pedido pelo WhatsApp?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Não. O agente só aceita os números cadastrados como usuários da fábrica, e cada um tem as permissões do seu perfil: o operador, por exemplo, só consulta."
       }
     },
     {
@@ -170,7 +196,7 @@
       "name": "Nenhum pedido vai para a produção sem pagamento?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Isso mesmo. A plataforma só libera o pedido para a fila de produção depois que o gestor confere o comprovante e aprova o pagamento. Cada mudança de situação fica registrada no histórico do pedido."
+        "text": "Isso mesmo. O pedido só entra na fila da produção depois que o pagamento é aprovado por quem tem permissão. No agente de WhatsApp (em implantação), isso acontece quando quem lança confirma que o pagamento foi conferido; se não, o pedido fica aguardando pagamento. Cada mudança de situação fica registrada no histórico do pedido."
       }
     },
     {
@@ -178,7 +204,7 @@
       "name": "Precisa instalar alguma coisa?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Não. O FábricaFlow funciona no navegador, no computador e no celular. Gestores, atendentes e operadores entram com o próprio usuário e veem apenas o que o perfil deles permite."
+        "text": "Não. O FábricaFlow funciona no navegador, no computador e no celular, e as telas se atualizam sozinhas quando alguém mexe em um pedido. Gestores, vendedores e operadores entram com o próprio usuário e veem apenas o que o perfil deles permite."
       }
     },
     {
@@ -202,7 +228,7 @@
       "name": "Os dados da minha fábrica ficam seguros?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Sim. Os dados ficam em servidores no Brasil (São Paulo), cada empresa só enxerga os próprios dados e o acesso é separado por perfil (administrador, gestor e operador). A plataforma foi pensada para atender à LGPD."
+        "text": "Sim. Os dados ficam em servidores no Brasil (São Paulo), cada empresa só enxerga os próprios dados e o acesso é separado por perfil (administrador, gestor, vendedor e operador). A plataforma foi pensada para atender à LGPD."
       }
     }
   ]
@@ -210,7 +236,7 @@
 </script>
 <link rel="preload" href="/fonts/archivo-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/style.css?v=10">
+<link rel="stylesheet" href="/style.css?v=11">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -285,9 +311,9 @@
   <section class="hero">
     <div class="faixa hero-inner">
       <div class="hero-texto">
-        <p class="sobretitulo">Plataforma de gestão industrial · Metalurgia e serralheria</p>
+        <p class="sobretitulo">Gestão industrial automatizada · Metalurgia e serralheria</p>
         <h1>Sistema de gestão para metalúrgicas e serralherias</h1>
-        <p class="hero-sub" id="hero-sub">Atendimento, aprovação, produção, estoque e aviso ao cliente conectados, para metalúrgicas, serralherias e fábricas de estruturas metálicas. Sem digitação manual, com aprovação do gestor.</p>
+        <p class="hero-sub" id="hero-sub">O pedido entra, passa pela aprovação do pagamento, vai para a fila do setor certo e avisa quem precisa saber. Para metalúrgicas, serralherias e fábricas de estruturas metálicas.</p>
         <div class="hero-acoes">
           <a class="botao" href="#contato">Agendar demonstração de 20 min</a>
           <a class="botao botao-secundario" href="#como-funciona">Ver como funciona</a>
@@ -389,29 +415,29 @@
     <div class="faixa">
       <header class="secao-cabeca">
         <p class="sobretitulo">A solução</p>
-        <h2>Uma plataforma para toda a operação</h2>
-        <p>Atendimento, produção, estoque e acompanhamento em um único sistema, no computador e no celular.</p>
+        <h2>Um sistema para toda a operação</h2>
+        <p>Pedido, produção, estoque e clientes em um único sistema, no computador e no celular, atualizado em tempo real.</p>
       </header>
       <ul class="pilares">
         <li>
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 18.5V6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H8z"/><path d="M8 9h8M8 12h5"/></svg>
-          <h3>Atendimento automático</h3>
-          <p>Assistente no WhatsApp recebe o pedido, calcula o orçamento e registra tudo, 24 horas por dia.</p>
+          <h3>Pedido sem retrabalho</h3>
+          <p>Cliente, produto, prioridade e setor sugerido pelo catálogo. Em breve, também por mensagem no WhatsApp.</p>
         </li>
         <li>
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 20h18M5 20V10l5 3V10l5 3V6h4v14"/></svg>
-          <h3>Gestão da produção</h3>
-          <p>Setores configurados conforme a sua fábrica. Cada operador vê a fila e atualiza o status.</p>
+          <h3>Produção por setor</h3>
+          <p>Cada setor vê a própria fila, com os urgentes primeiro, e imprime a ficha do pedido em PDF.</p>
         </li>
         <li>
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8l8-4 8 4v8l-8 4-8-4z"/><path d="M4 8l8 4 8-4M12 12v8"/></svg>
-          <h3>Controle de estoque</h3>
-          <p>Saldo de cada material em tempo real e alerta automático quando chega no mínimo.</p>
+          <h3>Estoque com alerta</h3>
+          <p>Saldo de cada material, alerta quando chega no mínimo e o contato do fornecedor no cadastro.</p>
         </li>
         <li>
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 19V5M4 19h16"/><path d="M8 15l3-4 3 2 4-6"/></svg>
-          <h3>Visão em tempo real</h3>
-          <p>Painel com todos os pedidos, do primeiro contato até a entrega, para o gestor decidir rápido.</p>
+          <h3>Clientes e tempo real</h3>
+          <p>Histórico de compra de cada cliente e telas que se atualizam sozinhas para gestor, vendedor e operador.</p>
         </li>
       </ul>
     </div>
@@ -440,41 +466,45 @@
       <header class="secao-cabeca">
         <p class="sobretitulo">Como funciona</p>
         <h2>O caminho de um pedido, em 8 etapas</h2>
-        <p>Cada etapa é validada antes da próxima. Nenhum pedido entra em produção sem pagamento confirmado e aprovação do gestor.</p>
+        <p>Cada etapa é validada antes da próxima. Nenhum pedido entra em produção sem pagamento aprovado.</p>
       </header>
       <ol class="etapas">
-        <li><span class="etapa-num">1</span><h3>Pedido recebido no WhatsApp</h3><p>O cliente manda mensagem e o assistente entende o pedido.</p></li>
-        <li><span class="etapa-num">2</span><h3>Orçamento automático</h3><p>Preço calculado com as suas regras e tabelas.</p></li>
-        <li><span class="etapa-num">3</span><h3>Cobrança enviada ao cliente</h3><p>Link ou dados de pagamento vão na mesma conversa.</p></li>
-        <li><span class="etapa-num">4</span><h3>Cliente envia o comprovante</h3><p>O comprovante fica anexado ao pedido.</p></li>
-        <li class="etapa-humana"><span class="etapa-num">5</span><span class="etiqueta">Decisão do gestor</span><h3>Aprovação do gestor</h3><p>Confere pedido e pagamento no painel e aprova em um clique.</p></li>
-        <li><span class="etapa-num">6</span><h3>Pedido liberado para produção</h3><p>Entra na fila do setor certo, com todos os dados.</p></li>
-        <li><span class="etapa-num">7</span><h3>Produção no setor</h3><p>O operador inicia, atualiza e conclui pelo sistema.</p></li>
-        <li><span class="etapa-num">8</span><h3>Cliente avisado automaticamente</h3><p>Notificações no WhatsApp até a entrega.</p></li>
+        <li><span class="etapa-num">1</span><h3>Pedido lançado</h3><p>Pela equipe no sistema ou, em breve, por mensagem no WhatsApp.</p></li>
+        <li><span class="etapa-num">2</span><h3>Setor e prioridade</h3><p>O catálogo sugere o setor que produz; a prioridade define a ordem.</p></li>
+        <li><span class="etapa-num">3</span><h3>Comprovante anexado</h3><p>O comprovante do pagamento fica guardado no próprio pedido.</p></li>
+        <li class="etapa-humana"><span class="etapa-num">4</span><span class="etiqueta">Decisão humana</span><h3>Pagamento aprovado</h3><p>Quem tem permissão confere e aprova em um clique.</p></li>
+        <li><span class="etapa-num">5</span><h3>Fila do setor certo</h3><p>O pedido liberado entra na fila, com os urgentes primeiro.</p></li>
+        <li><span class="etapa-num">6</span><h3>Ficha para a produção</h3><p>Ficha em PDF, sem valores, para imprimir e conferir.</p></li>
+        <li><span class="etapa-num">7</span><h3>Produção acompanhada</h3><p>O operador atualiza pelo celular e todos veem na hora.</p></li>
+        <li><span class="etapa-num">8</span><h3>Cliente avisado</h3><p>Mensagem pronta a cada etapa, enviada com um toque.</p></li>
       </ol>
       <p class="legenda-etapas"><span class="legenda-item"><span class="ponto ponto-auto"></span>Automático, sem digitação</span><span class="legenda-item"><span class="ponto ponto-humano"></span>Decisão humana, com controle</span></p>
 
       <div class="whats">
         <div class="whats-texto">
-          <h3>O cliente pede como já está acostumado. O sistema registra tudo.</h3>
+          <p class="selo-breve">Em implantação</p>
+          <h3>Agente de WhatsApp: lance o pedido por mensagem</h3>
           <ul class="lista-check">
-            <li>Entende o pedido e tira dúvidas básicas a qualquer hora</li>
-            <li>Calcula o orçamento com a sua tabela de preços</li>
-            <li>Envia a cobrança e recebe o comprovante na mesma conversa</li>
-            <li>Encaminha para aprovação do gestor antes de produzir</li>
-            <li>Avisa o cliente a cada etapa: aprovado, em produção, pronto e saiu para entrega</li>
+            <li>A vendedora manda texto ou áudio com o pedido</li>
+            <li>O agente entende, sugere o setor pelo catálogo e pede confirmação</li>
+            <li>Com o pagamento conferido, o pedido vai direto para a fila da produção</li>
+            <li>Só números cadastrados da fábrica, cada um com as permissões do seu perfil</li>
+            <li>Gestores recebem alerta de pedido urgente e de insumo abaixo do mínimo, com o contato do fornecedor</li>
+            <li>Número de WhatsApp dedicado da sua fábrica, com chip incluso na mensalidade</li>
           </ul>
         </div>
-        <div class="conversa" role="img" aria-label="Exemplo de conversa no WhatsApp: o cliente pede 2.000 caixas, recebe o orçamento, confirma, envia o comprovante e é avisado depois da aprovação do gestor.">
-          <p class="conversa-topo">Atendimento · WhatsApp</p>
-          <p class="msg msg-cliente" id="conversa-pedido">Bom dia! Preciso de 300 suportes em aço galvanizado, conforme o desenho anexo.</p>
-          <p class="msg msg-bot" id="conversa-orcamento">Bom dia! Orçamento: 300 suportes em aço galvanizado, conforme desenho. Total R$ X.XXX,XX. Prazo de 10 dias úteis. Confirma?</p>
-          <p class="msg msg-cliente">Confirmo.</p>
-          <p class="msg msg-bot">Pedido #1482 registrado. Segue o link de pagamento. Assim que receber o comprovante, envio para aprovação.</p>
-          <p class="msg msg-cliente">Comprovante enviado.</p>
-          <p class="conversa-marco">Gestor aprova no painel</p>
-          <p class="msg msg-bot">Recebido! Seu pedido foi aprovado e entrou em produção. Avisaremos a cada etapa.</p>
-        </div>
+        <figure class="conversa-figura">
+          <div class="conversa" role="img" aria-label="Ilustração de conversa com o agente de WhatsApp: a vendedora informa o pedido, o agente mostra o resumo com setor e prioridade, pergunta se o pagamento foi conferido e registra o pedido na fila da produção.">
+            <p class="conversa-topo">Agente FábricaFlow · WhatsApp</p>
+            <p class="msg msg-cliente" id="conversa-pedido">A Serralheria Norte pediu 300 suportes em aço galvanizado, conforme o desenho, para o dia 15. Prioridade alta.</p>
+            <p class="msg msg-bot" id="conversa-orcamento">Pedido: Serralheria Norte · 300 suportes em aço galvanizado · entrega dia 15 · prioridade Alta · setor Corte a laser e plasma. O pagamento já foi conferido?</p>
+            <p class="msg msg-cliente">Sim, já conferi o Pix.</p>
+            <p class="msg msg-bot">Pedido #1482 registrado e enviado para a fila do setor. Os gestores foram avisados.</p>
+            <p class="conversa-marco">Alerta no WhatsApp do gestor</p>
+            <p class="msg msg-bot">Pedido URGENTE #1482 lançado por Ana: Padaria das Flores, entrega sexta.</p>
+          </div>
+          <figcaption>Ilustração. O agente de WhatsApp está em implantação.</figcaption>
+        </figure>
       </div>
     </div>
   </section>
@@ -544,10 +574,12 @@
       <div class="comparativo" role="table" aria-label="Antes e depois da plataforma">
         <div class="comp-linha comp-cabeca" role="row"><span role="columnheader">Antes</span><span role="columnheader">Depois</span></div>
         <div class="comp-linha" role="row"><span role="cell">Papel e planilhas manuais</span><span role="cell">Uma plataforma integrada, no computador e no celular</span></div>
-        <div class="comp-linha" role="row"><span role="cell">WhatsApp desorganizado, pedido sem registro</span><span role="cell">Todo pedido registrado, do WhatsApp à entrega</span></div>
+        <div class="comp-linha" role="row"><span role="cell">Pedido perdido na conversa, sem registro</span><span role="cell">Todo pedido registrado, com histórico e quem lançou</span></div>
         <div class="comp-linha" role="row"><span role="cell">Produção sem visão de fila e prazo</span><span role="cell">Fila por setor, com status atualizado pelo operador</span></div>
         <div class="comp-linha" role="row"><span role="cell">Estoque descoberto quando acaba</span><span role="cell">Alerta de reposição antes de faltar material</span></div>
-        <div class="comp-linha" role="row"><span role="cell">Cliente ligando para saber do pedido</span><span role="cell">Cliente avisado automaticamente a cada etapa</span></div>
+        <div class="comp-linha" role="row"><span role="cell">Cliente ligando para saber do pedido</span><span role="cell">Mensagem pronta para avisar o cliente a cada etapa</span></div>
+        <div class="comp-linha" role="row"><span role="cell">Ficha de produção escrita à mão</span><span role="cell">Ficha do pedido em PDF, pronta para imprimir</span></div>
+        <div class="comp-linha" role="row"><span role="cell">Ninguém sabe quem parou de comprar</span><span role="cell">Histórico de cada cliente e quem está há mais tempo sem pedir</span></div>
       </div>
     </div>
   </section>
@@ -562,7 +594,7 @@
       </header>
       <ol class="fases">
         <li><span class="fase-rotulo">Fase 1</span><h3>Diagnóstico</h3><p>Mapeamos como o pedido entra, como a produção é organizada, quais setores existem e quais materiais controlar.</p></li>
-        <li><span class="fase-rotulo">Fase 2</span><h3>Configuração</h3><p>Configuramos setores, tabela de preços, materiais, estoques mínimos e mensagens do WhatsApp. Treinamos gestores e operadores.</p></li>
+        <li><span class="fase-rotulo">Fase 2</span><h3>Configuração</h3><p>Configuramos setores, catálogo de produtos, materiais, estoques mínimos, usuários e perfis. Treinamos gestores, vendedores e operadores.</p></li>
         <li><span class="fase-rotulo">Fase 3</span><h3>Operação assistida</h3><p>A plataforma entra no dia a dia com o nosso acompanhamento próximo, ajustando o que for preciso até a equipe ganhar autonomia.</p></li>
       </ol>
       <div class="regua" aria-hidden="true"><span>Início</span><span>~2 meses</span></div>
@@ -603,7 +635,7 @@
       <div class="faq">
         <details class="faq-item">
           <summary>O que é o FábricaFlow?</summary>
-          <p>O FábricaFlow é uma plataforma de gestão industrial para fábricas que recebem pedidos, produzem e entregam. Ela conecta em um só sistema o registro do pedido (inclusive pelo WhatsApp), a aprovação do pagamento pelo gestor, a fila de produção por setor, o controle de estoque e o aviso automático ao cliente a cada etapa.</p>
+          <p>O FábricaFlow é um software de gestão industrial automatizado para fábricas que recebem pedidos, produzem e entregam. O pedido entra pelo sistema (e, em breve, por mensagem de WhatsApp), passa pela aprovação do pagamento, vai para a fila do setor certo, avisa quem precisa saber e fica registrado. Menos digitação e menos planilha paralela.</p>
         </details>
         <details class="faq-item">
           <summary>O FábricaFlow tem relação com o fabricaflow.com?</summary>
@@ -619,19 +651,31 @@
         </details>
         <details class="faq-item">
           <summary>Quais módulos a plataforma tem?</summary>
-          <p>Pedidos, aprovação de pagamento, produção por setor em kanban, controle de estoque com alerta de mínimo, relatórios, notificações ao cliente e importação de clientes e produtos por planilha. Cada empresa ativa apenas os módulos que usa.</p>
+          <p>Pedidos com prioridade e catálogo de produtos, aprovação de pagamento, produção por setor em kanban, ficha do pedido em PDF, clientes com histórico de compra, estoque com alerta de mínimo e fornecedor, relatórios, mensagens ao cliente e importação de clientes e produtos por planilha. Os perfis de acesso são administrador, gestor, vendedor e operador. Cada empresa ativa apenas os módulos que usa.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Dá para ver quais clientes estão sem comprar?</summary>
+          <p>Sim. Cada cliente mostra a data do último pedido, o total de pedidos, os pedidos dos últimos 90 dias e a frequência média de compra. Dá para ordenar a lista por quem está há mais tempo sem pedir e saber quem procurar.</p>
         </details>
         <details class="faq-item">
           <summary>Como funciona o pedido pelo WhatsApp?</summary>
-          <p>O cliente pede pela conversa como já está acostumado. O pedido fica registrado com histórico, o comprovante de pagamento é anexado e o gestor aprova antes de liberar para a produção. Depois, o cliente recebe um aviso a cada etapa: aprovado, em produção, pronto e saiu para entrega. O WhatsApp é conectado ao número da própria fábrica na implantação.</p>
+          <p>Hoje o pedido é lançado no sistema, pelo computador ou pelo celular. O agente de WhatsApp está em implantação: a vendedora manda texto ou áudio com o pedido, o agente entende, sugere o setor pelo catálogo, mostra o resumo e pede confirmação. Com o pagamento conferido, o pedido vai para a fila da produção. Tudo fica registrado com o nome de quem lançou.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Preciso de um número de WhatsApp novo para o agente?</summary>
+          <p>Não precisa providenciar. Quando o agente de WhatsApp (em implantação) for ativado, cada fábrica recebe um número dedicado, com o chip incluso na mensalidade. O WhatsApp de atendimento da empresa continua separado.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Qualquer pessoa pode lançar pedido pelo WhatsApp?</summary>
+          <p>Não. O agente só aceita os números cadastrados como usuários da fábrica, e cada um tem as permissões do seu perfil: o operador, por exemplo, só consulta.</p>
         </details>
         <details class="faq-item">
           <summary>Nenhum pedido vai para a produção sem pagamento?</summary>
-          <p>Isso mesmo. A plataforma só libera o pedido para a fila de produção depois que o gestor confere o comprovante e aprova o pagamento. Cada mudança de situação fica registrada no histórico do pedido.</p>
+          <p>Isso mesmo. O pedido só entra na fila da produção depois que o pagamento é aprovado por quem tem permissão. No agente de WhatsApp (em implantação), isso acontece quando quem lança confirma que o pagamento foi conferido; se não, o pedido fica aguardando pagamento. Cada mudança de situação fica registrada no histórico do pedido.</p>
         </details>
         <details class="faq-item">
           <summary>Precisa instalar alguma coisa?</summary>
-          <p>Não. O FábricaFlow funciona no navegador, no computador e no celular. Gestores, atendentes e operadores entram com o próprio usuário e veem apenas o que o perfil deles permite.</p>
+          <p>Não. O FábricaFlow funciona no navegador, no computador e no celular, e as telas se atualizam sozinhas quando alguém mexe em um pedido. Gestores, vendedores e operadores entram com o próprio usuário e veem apenas o que o perfil deles permite.</p>
         </details>
         <details class="faq-item">
           <summary>Quanto tempo leva a implantação?</summary>
@@ -643,7 +687,7 @@
         </details>
         <details class="faq-item">
           <summary>Os dados da minha fábrica ficam seguros?</summary>
-          <p>Sim. Os dados ficam em servidores no Brasil (São Paulo), cada empresa só enxerga os próprios dados e o acesso é separado por perfil (administrador, gestor e operador). A plataforma foi pensada para atender à LGPD.</p>
+          <p>Sim. Os dados ficam em servidores no Brasil (São Paulo), cada empresa só enxerga os próprios dados e o acesso é separado por perfil (administrador, gestor, vendedor e operador). A plataforma foi pensada para atender à LGPD.</p>
         </details>
       </div>
     </div>
@@ -655,7 +699,7 @@
       <div class="contato-texto">
         <p class="sobretitulo">Vamos conversar</p>
         <h2>Veja a plataforma funcionando na rotina da sua fábrica</h2>
-        <p>Em 20 minutos, por vídeo, mostramos o fluxo completo, do pedido no WhatsApp à entrega, e avaliamos juntos se faz sentido para a sua operação.</p>
+        <p>Em 20 minutos, por vídeo, mostramos o fluxo completo, do pedido à entrega, e avaliamos juntos se faz sentido para a sua operação.</p>
         <div class="contato-direto">
           <p><span>Igor Bergara</span></p>
           <p>WhatsApp: <a href="https://wa.me/5511978746889" target="_blank" rel="noopener">(11) 97874-6889</a></p>
@@ -775,7 +819,7 @@
 
 <a class="cta-fixo escondido" id="cta-fixo" href="#contato">Agendar demonstração de 20 min</a>
 
-<script src="/main.js?v=4"></script>
+<script src="/main.js?v=5"></script>
 <script src="/menu.js?v=2" defer></script>
 <!-- Cloudflare Web Analytics: contagem de visitas sem cookies -->
 <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "455bed71444a4bc186419a70af66d7df"}'></script>

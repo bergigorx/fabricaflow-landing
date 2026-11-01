@@ -23,19 +23,19 @@ const endpointConfigurado = !/EXEMPLO|0000000/.test(ENDPOINT_FORMULARIO);
    Usada nos links dos e-mails de prospecção. Troca só textos de exemplo; sem o parâmetro, a página fica geral. */
 const SEGMENTOS = {
   moveis: {
-    heroSub: "Atendimento, aprovação, produção, estoque e aviso ao cliente conectados, para fábricas de móveis e marcenarias. Sem digitação manual, com aprovação do gestor.",
+    heroSub: "O pedido entra, passa pela aprovação do pagamento, vai para a fila do setor certo e avisa quem precisa saber. Para fábricas de móveis e marcenarias.",
     chips: ["Móveis planejados", "Móveis corporativos", "Marcenaria sob medida", "Estofados", "Móveis de aço"],
-    pedido: "Boa tarde! Preciso de 12 cozinhas planejadas em MDF branco para um prédio, conforme o projeto anexo.",
-    orcamento: "Boa tarde! Orçamento: 12 cozinhas planejadas, MDF branco, conforme projeto. Total R$ X.XXX,XX. Prazo de 30 dias úteis. Confirma?",
+    pedido: "A Construtora Alfa fechou 12 cozinhas planejadas em MDF branco, conforme o projeto. Entrega em 30 dias.",
+    orcamento: "Pedido: Construtora Alfa · 12 cozinhas planejadas, MDF branco · entrega em 30 dias · prioridade Normal · setor Corte e seccionadora. O pagamento já foi conferido?",
     material: "Chapa de MDF, fita de borda ou ferragem que acabou sem ninguém perceber a tempo.",
     setores: ["Corte e seccionadora", "Usinagem CNC", "Coladeira de borda", "Furação", "Pintura e laca", "Estofamento", "Montagem", "Embalagem", "Expedição"],
     formulario: "Móveis e marcenaria",
   },
   metal: {
-    heroSub: "Atendimento, aprovação, produção, estoque e aviso ao cliente conectados, para metalúrgicas, serralherias e fábricas de estruturas metálicas. Sem digitação manual, com aprovação do gestor.",
+    heroSub: "O pedido entra, passa pela aprovação do pagamento, vai para a fila do setor certo e avisa quem precisa saber. Para metalúrgicas, serralherias e fábricas de estruturas metálicas.",
     chips: ["Serralheria", "Estruturas metálicas", "Esquadrias de alumínio", "Usinagem", "Caldeiraria"],
-    pedido: "Bom dia! Preciso de 300 suportes em aço galvanizado, conforme o desenho anexo.",
-    orcamento: "Bom dia! Orçamento: 300 suportes em aço galvanizado, conforme desenho. Total R$ X.XXX,XX. Prazo de 10 dias úteis. Confirma?",
+    pedido: "A Serralheria Norte pediu 300 suportes em aço galvanizado, conforme o desenho, para o dia 15. Prioridade alta.",
+    orcamento: "Pedido: Serralheria Norte · 300 suportes em aço galvanizado · entrega dia 15 · prioridade Alta · setor Corte a laser e plasma. O pagamento já foi conferido?",
     material: "Chapa, perfil, arame de solda ou tinta que acabou sem ninguém perceber a tempo.",
     setores: ["Corte a laser e plasma", "Guilhotina", "Dobra", "Usinagem", "Solda", "Caldeiraria", "Pintura e galvanização", "Montagem", "Expedição"],
     formulario: "Metalurgia e serralheria",
