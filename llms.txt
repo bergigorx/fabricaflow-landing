@@ -40,9 +40,10 @@ Idioma: português (Brasil). Atende fábricas em todo o Brasil.
 - Só atende números cadastrados da própria fábrica, respeitando o perfil de cada um.
 - Alertas automáticos para os gestores: pedido urgente ou de prioridade alta e insumo abaixo do mínimo, com o contato do fornecedor.
 
-## O que o FábricaFlow não faz
+## Foco: o chão de fábrica
 
-- Não faz lembrete automático de recompra para clientes, não emite nota fiscal, não envia a ficha do pedido por WhatsApp e não tem integração pronta com ERPs (Bling, Omie): integração só sob demanda.
+- Foco no chão de fábrica: o FábricaFlow não emite nota fiscal, não cuida do financeiro e não se integra a ERPs. Financeiro e notas fiscais continuam no sistema que a empresa já usa.
+- Também não faz lembrete automático de recompra para clientes nem envia a ficha do pedido por WhatsApp.
 
 ## Para quem é
 
@@ -81,7 +82,7 @@ Para qualquer indústria que siga o fluxo pedido, produção e entrega e que pre
 
 ### O FábricaFlow substitui o ERP?
 
-Não precisa substituir. A empresa contrata só os módulos que fazem sentido: quem já tem ERP costuma usar o FábricaFlow para produção, estoque e avisos ao cliente, enquanto o ERP continua emitindo a nota fiscal. A integração com ERPs como Bling e Omie é feita sob demanda na implantação.
+Não. O FábricaFlow cuida do chão de fábrica: pedidos, aprovação do pagamento, produção por setor, entrega e insumos. Financeiro e notas fiscais continuam no sistema que a empresa já usa.
 
 ### Quais módulos a plataforma tem?
 
