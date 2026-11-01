@@ -16,7 +16,7 @@ Idioma: português (Brasil). Atende fábricas em todo o Brasil.
 - Política de Privacidade (LGPD): https://fabricaflow.online/privacidade/
 - Termos de Uso: https://fabricaflow.online/termos/
 
-## O que a plataforma faz (disponível hoje)
+## O que a plataforma faz
 
 - Pedidos: lançamento com cliente, produto, quantidade, prazo e prioridade (normal, alta ou urgente); busca por número, cliente ou produto; histórico de cada mudança com quem fez.
 - Catálogo de produtos: cada produto fica ligado ao setor que o produz, e o setor vem sugerido ao lançar o pedido.
@@ -32,12 +32,17 @@ Idioma: português (Brasil). Atende fábricas em todo o Brasil.
 - Importação de clientes e produtos por planilha (Excel ou CSV).
 - Modular: cada fábrica contrata só os módulos que usa e pode manter o ERP atual.
 
-## Em implantação (ainda não disponível)
+## Chatbot de WhatsApp (ativado na implantação de cada fábrica)
 
-- Agente de WhatsApp: a vendedora manda texto ou áudio com o pedido; o agente entende, sugere o setor pelo catálogo, mostra o resumo e pede confirmação. Com o pagamento conferido, o pedido vai para a fila da produção. Só números cadastrados da fábrica, cada um com as permissões do seu perfil.
-- Alertas no WhatsApp dos gestores: pedido urgente ou de prioridade alta e insumo abaixo do mínimo, com o contato do fornecedor.
-- Cada fábrica terá um número de WhatsApp dedicado do agente, com chip incluso na mensalidade.
-- O FábricaFlow não faz lembrete automático de recompra para clientes, não emite nota fiscal e não tem integração pronta com ERPs (Bling, Omie): integração só sob demanda.
+- Na implantação, cada fábrica ganha um número de WhatsApp próprio com o chatbot do FábricaFlow, com chip incluso na mensalidade. O WhatsApp de atendimento da empresa continua separado.
+- Lança pedido por texto ou áudio: entende cliente, produto, quantidade, prazo e prioridade, sugere o setor pelo catálogo, mostra o resumo e pede confirmação. Com o pagamento confirmado por quem lançou, o pedido vai direto para a fila da produção, registrado com o nome da pessoa.
+- Consulta a situação de um pedido pelo número.
+- Só atende números cadastrados da própria fábrica, respeitando o perfil de cada um.
+- Alertas automáticos para os gestores: pedido urgente ou de prioridade alta e insumo abaixo do mínimo, com o contato do fornecedor.
+
+## O que o FábricaFlow não faz
+
+- Não faz lembrete automático de recompra para clientes, não emite nota fiscal, não envia a ficha do pedido por WhatsApp e não tem integração pronta com ERPs (Bling, Omie): integração só sob demanda.
 
 ## Para quem é
 
@@ -64,7 +69,7 @@ Indústrias que seguem o fluxo pedido → produção → entrega e controlam est
 
 ### O que é o FábricaFlow?
 
-O FábricaFlow é um software de gestão industrial automatizado para fábricas que recebem pedidos, produzem e entregam. O pedido entra pelo sistema (e, em breve, por mensagem de WhatsApp), passa pela aprovação do pagamento, vai para a fila do setor certo, avisa quem precisa saber e fica registrado. Menos digitação e menos planilha paralela.
+O FábricaFlow é um software de gestão industrial automatizado para fábricas que recebem pedidos, produzem e entregam. O pedido entra pelo sistema ou pelo chatbot de WhatsApp da fábrica, passa pela aprovação do pagamento, vai para a fila do setor certo, avisa quem precisa saber e fica registrado. Menos digitação e menos planilha paralela.
 
 ### O FábricaFlow tem relação com o fabricaflow.com?
 
@@ -80,7 +85,7 @@ Não precisa substituir. A empresa contrata só os módulos que fazem sentido: q
 
 ### Quais módulos a plataforma tem?
 
-Pedidos com prioridade e catálogo de produtos, aprovação de pagamento, produção por setor em kanban, ficha do pedido em PDF, clientes com histórico de compra, estoque com alerta de mínimo e fornecedor, relatórios, mensagens ao cliente e importação de clientes e produtos por planilha. Os perfis de acesso são administrador, gestor, vendedor e operador. Cada empresa ativa apenas os módulos que usa.
+Pedidos com prioridade e catálogo de produtos, chatbot de WhatsApp para lançar e consultar pedidos, aprovação de pagamento, produção por setor em kanban, ficha do pedido em PDF, clientes com histórico de compra, estoque com alerta de mínimo e fornecedor, relatórios, mensagens ao cliente e importação de clientes e produtos por planilha. Os perfis de acesso são administrador, gestor, vendedor e operador. Cada empresa ativa apenas os módulos que usa.
 
 ### Dá para ver quais clientes estão sem comprar?
 
@@ -88,19 +93,19 @@ Sim. Cada cliente mostra a data do último pedido, o total de pedidos, os pedido
 
 ### Como funciona o pedido pelo WhatsApp?
 
-Hoje o pedido é lançado no sistema, pelo computador ou pelo celular. O agente de WhatsApp está em implantação: a vendedora manda texto ou áudio com o pedido, o agente entende, sugere o setor pelo catálogo, mostra o resumo e pede confirmação. Com o pagamento conferido, o pedido vai para a fila da produção. Tudo fica registrado com o nome de quem lançou.
+Na implantação, a fábrica ganha um chatbot de WhatsApp com número próprio. A vendedora manda texto ou áudio com o pedido; o chatbot entende cliente, produto, quantidade, prazo e prioridade, sugere o setor pelo catálogo, mostra o resumo e pede confirmação. Com o pagamento conferido, o pedido vai para a fila da produção, registrado com o nome de quem lançou. Também dá para consultar a situação de um pedido pelo número.
 
-### Preciso de um número de WhatsApp novo para o agente?
+### Preciso de um número de WhatsApp novo para o chatbot?
 
-Não precisa providenciar. Quando o agente de WhatsApp (em implantação) for ativado, cada fábrica recebe um número dedicado, com o chip incluso na mensalidade. O WhatsApp de atendimento da empresa continua separado.
+Não precisa providenciar. Na implantação, cada fábrica recebe um número dedicado do chatbot, com o chip incluso na mensalidade. O WhatsApp de atendimento da empresa continua separado.
 
 ### Qualquer pessoa pode lançar pedido pelo WhatsApp?
 
-Não. O agente só aceita os números cadastrados como usuários da fábrica, e cada um tem as permissões do seu perfil: o operador, por exemplo, só consulta.
+Não. O chatbot só atende os números cadastrados como usuários da fábrica, e cada um tem as permissões do seu perfil: o operador, por exemplo, só consulta.
 
 ### Nenhum pedido vai para a produção sem pagamento?
 
-Isso mesmo. O pedido só entra na fila da produção depois que o pagamento é aprovado por quem tem permissão. No agente de WhatsApp (em implantação), isso acontece quando quem lança confirma que o pagamento foi conferido; se não, o pedido fica aguardando pagamento. Cada mudança de situação fica registrada no histórico do pedido.
+Isso mesmo. O pedido só entra na fila da produção depois que o pagamento é aprovado por quem tem permissão. No chatbot de WhatsApp, isso acontece quando quem lança confirma que o pagamento foi conferido; se não, o pedido fica aguardando pagamento. Cada mudança de situação fica registrada no histórico do pedido.
 
 ### Precisa instalar alguma coisa?
 
@@ -116,4 +121,4 @@ A mensalidade é definida conforme o porte da operação, o número de usuários
 
 ### Os dados da minha fábrica ficam seguros?
 
-Sim. Os dados ficam em servidores no Brasil (São Paulo), cada empresa só enxerga os próprios dados e o acesso é separado por perfil (administrador, gestor, vendedor e operador). A plataforma foi pensada para atender à LGPD.
+Sim. Os dados ficam em servidores no Brasil (São Paulo), cada empresa só enxerga os próprios dados e o acesso é separado por perfil (administrador, gestor e operador). A plataforma foi pensada para atender à LGPD.
