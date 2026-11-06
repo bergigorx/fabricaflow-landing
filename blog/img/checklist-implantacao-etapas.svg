@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 498" role="img" aria-labelledby="t d">
+<title id="t">Checklist de implantação em 5 etapas</title>
+<desc id="d">Ilustração. Etapa 1: problema e responsável. Etapa 2: mapa do fluxo. Etapa 3: dados. Etapa 4: piloto e treino. Etapa 5: acompanhamento.</desc>
+<rect width="640" height="498" rx="14" fill="#f7f5f0"/>
+<rect x="24" y="24" width="592" height="76" rx="12" fill="#fffdf9" stroke="#d9dee4" stroke-width="2"/>
+<rect x="50" y="44" width="36" height="36" rx="8" fill="#ffffff" stroke="#0f2a43" stroke-width="3"/>
+<path d="M58 62 L66 70 L80 53" stroke="#0f2a43" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="108" y="57" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#8a97a5" text-anchor="start">Etapa 1</text>
+<text x="186" y="57" font-family="Inter, Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#1d2b38" text-anchor="start">Problema e responsável</text>
+<text x="108" y="83" font-family="Inter, Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#556474" text-anchor="start">uma frase, um dono, três resultados</text>
+<path d="M68 102 L68 115 M61 109 L68 117 L75 109" stroke="#556474" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+<rect x="24" y="118" width="592" height="76" rx="12" fill="#fffdf9" stroke="#d9dee4" stroke-width="2"/>
+<rect x="50" y="138" width="36" height="36" rx="8" fill="#ffffff" stroke="#e8962e" stroke-width="3"/>
+<path d="M58 156 L66 164 L80 147" stroke="#e8962e" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="108" y="151" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#8a97a5" text-anchor="start">Etapa 2</text>
+<text x="186" y="151" font-family="Inter, Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#1d2b38" text-anchor="start">Mapa do fluxo</text>
+<text x="108" y="177" font-family="Inter, Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#556474" text-anchor="start">do pedido à entrega, como é hoje</text>
+<path d="M68 196 L68 209 M61 203 L68 211 L75 203" stroke="#556474" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+<rect x="24" y="212" width="592" height="76" rx="12" fill="#fffdf9" stroke="#d9dee4" stroke-width="2"/>
+<rect x="50" y="232" width="36" height="36" rx="8" fill="#ffffff" stroke="#e8962e" stroke-width="3"/>
+<path d="M58 250 L66 258 L80 241" stroke="#e8962e" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="108" y="245" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#8a97a5" text-anchor="start">Etapa 3</text>
+<text x="186" y="245" font-family="Inter, Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#1d2b38" text-anchor="start">Dados</text>
+<text x="108" y="271" font-family="Inter, Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#556474" text-anchor="start">cadastros limpos e saldo contado</text>
+<path d="M68 290 L68 303 M61 297 L68 305 L75 297" stroke="#556474" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+<rect x="24" y="306" width="592" height="76" rx="12" fill="#fffdf9" stroke="#d9dee4" stroke-width="2"/>
+<rect x="50" y="326" width="36" height="36" rx="8" fill="#ffffff" stroke="#e8962e" stroke-width="3"/>
+<path d="M58 344 L66 352 L80 335" stroke="#e8962e" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="108" y="339" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#8a97a5" text-anchor="start">Etapa 4</text>
+<text x="186" y="339" font-family="Inter, Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#1d2b38" text-anchor="start">Piloto e treino</text>
+<text x="108" y="365" font-family="Inter, Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#556474" text-anchor="start">um setor, no posto de trabalho</text>
+<path d="M68 384 L68 397 M61 391 L68 399 L75 391" stroke="#556474" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+<rect x="24" y="400" width="592" height="76" rx="12" fill="#fffdf9" stroke="#d9dee4" stroke-width="2"/>
+<rect x="50" y="420" width="36" height="36" rx="8" fill="#ffffff" stroke="#25a35a" stroke-width="3"/>
+<path d="M58 438 L66 446 L80 429" stroke="#25a35a" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="108" y="433" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#8a97a5" text-anchor="start">Etapa 5</text>
+<text x="186" y="433" font-family="Inter, Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#1d2b38" text-anchor="start">Acompanhamento</text>
+<text x="108" y="459" font-family="Inter, Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#556474" text-anchor="start">15 minutos por semana, com números</text>
+</svg>
