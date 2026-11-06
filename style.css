@@ -501,3 +501,11 @@ body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-a
 .selo-breve { justify-self: start; display: inline-block; margin-bottom: 4px; padding: 4px 10px; border-radius: 999px; background: var(--ambar); color: var(--marinho); font-size: var(--t-xs); font-weight: 700; letter-spacing: .06em; text-transform: uppercase; }
 .conversa-figura { margin: 0; display: grid; gap: 8px; min-width: 0; }
 .conversa-figura figcaption { font-size: var(--t-xs); color: var(--cinza); text-align: center; }
+
+/* Blog: resposta rápida e lista de verificação */
+.resposta-rapida { display: grid; gap: 8px; padding: 18px 20px; background: var(--branco); border: 1px solid rgba(15, 42, 67, .12); border-left: 5px solid var(--ambar); border-radius: 0 12px 12px 0; }
+.resposta-rapida-rotulo { font-size: var(--t-xs); font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--ambar-escuro); }
+.resposta-rapida p:last-child { margin: 0; }
+.artigo-corpo ul.checklist { list-style: none; padding-left: 0; }
+.checklist li { position: relative; padding-left: 34px; }
+.checklist li::before { content: ""; position: absolute; left: 0; top: .3em; width: 18px; height: 18px; border: 2px solid var(--marinho); border-radius: 5px; background: var(--branco); }

@@ -62,8 +62,8 @@ Indústrias que seguem o fluxo pedido → produção → entrega e controlam est
 
 ## Artigos
 
-- Checklist para implantar sistema de gestão na fábrica: https://fabricaflow.online/blog/checklist-implantar-sistema-fabrica/
-- ERP ou sistema de produção: quando usar cada um na fábrica: https://fabricaflow.online/blog/erp-ou-sistema-de-producao/
+- Implantação de sistema de gestão na fábrica: checklist passo a passo: https://fabricaflow.online/blog/implantacao-sistema-gestao-fabrica-checklist/ (Cinco etapas para implantar sistema de gestão (ERP ou sistema de produção) na fábrica sem parar a produção: problema e responsável, fluxo real, dados, piloto e acompanhamento.)
+- ERP ou MES: qual a diferença e qual usar na fábrica pequena: https://fabricaflow.online/blog/erp-ou-mes-qual-usar-na-fabrica/ (O ERP cuida de financeiro, fiscal e compras; o MES ou sistema de controle de produção cuida da fila, do status e dos alertas no chão de fábrica. Guia para a pequena indústria decidir.)
 - Pedido pelo WhatsApp na indústria: como registrar sem perder nenhum: https://fabricaflow.online/blog/pedido-whatsapp-industria/
 - Como calcular o estoque mínimo dos materiais da fábrica (com exemplo): https://fabricaflow.online/blog/estoque-minimo-fabrica/
 - Controle de produção na pequena fábrica: como sair da planilha e do WhatsApp: https://fabricaflow.online/blog/controle-de-producao-pequena-fabrica/

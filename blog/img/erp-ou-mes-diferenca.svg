@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 470" role="img" aria-labelledby="t d">
-<title id="t">ERP na retaguarda e sistema de produção no chão de fábrica</title>
-<desc id="d">Ilustração. À esquerda, a retaguarda (ERP): financeiro, nota fiscal e impostos, compras, faturamento e cobrança. À direita, o chão de fábrica: fila por setor, status atualizado pelo operador, alerta de material. O pedido passa entre os dois: entra aprovado na produção e volta concluído para ser faturado no ERP.</desc>
+<title id="t">Diferença entre ERP e MES na fábrica pequena</title>
+<desc id="d">Ilustração da diferença entre ERP e MES. À esquerda, a retaguarda (ERP): financeiro, nota fiscal e impostos, compras, faturamento e cobrança. À direita, o chão de fábrica (MES, sistema de controle de produção): fila por setor, status atualizado pelo operador, alerta de material. O pedido passa entre os dois: entra aprovado na produção e volta concluído para ser faturado no ERP.</desc>
 <rect width="640" height="470" rx="14" fill="#f7f5f0"/>
 <rect x="24" y="24" width="250" height="330" rx="12" fill="#fffdf9" stroke="#d9dee4" stroke-width="2"/>
 <rect x="24" y="24" width="250" height="74" rx="12" fill="#0f2a43"/>
 <rect x="24" y="80" width="250" height="18" fill="#0f2a43"/>
 <text x="44" y="56" font-family="Inter, Arial, Helvetica, sans-serif" font-size="22" font-weight="800" fill="#ffffff" text-anchor="start">Retaguarda (ERP)</text>
-<text x="44" y="82" font-family="Inter, Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#e6edf3" text-anchor="start">o lugar do dinheiro</text>
+<text x="44" y="82" font-family="Inter, Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#e6edf3" text-anchor="start">ERP · o lugar do dinheiro</text>
 <circle cx="54" cy="134" r="7" fill="#0f2a43"/>
 <text x="72" y="140" font-family="Inter, Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#1d2b38" text-anchor="start">Financeiro</text>
 <text x="72" y="164" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#556474" text-anchor="start">pagar e receber, caixa</text>
@@ -20,7 +20,7 @@
 <rect x="366" y="24" width="250" height="74" rx="12" fill="#c97412"/>
 <rect x="366" y="80" width="250" height="18" fill="#c97412"/>
 <text x="386" y="56" font-family="Inter, Arial, Helvetica, sans-serif" font-size="22" font-weight="800" fill="#ffffff" text-anchor="start">Chão de fábrica</text>
-<text x="386" y="82" font-family="Inter, Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#e6edf3" text-anchor="start">o lugar da produção</text>
+<text x="386" y="82" font-family="Inter, Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#e6edf3" text-anchor="start">MES · o lugar da produção</text>
 <circle cx="396" cy="134" r="7" fill="#c97412"/>
 <text x="414" y="140" font-family="Inter, Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#1d2b38" text-anchor="start">Fila por setor</text>
 <text x="414" y="164" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#556474" text-anchor="start">prioridade visível</text>
