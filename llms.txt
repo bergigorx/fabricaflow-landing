@@ -35,7 +35,7 @@ Idioma: português (Brasil). Atende fábricas em todo o Brasil.
 ## Chatbot de WhatsApp (ativado na implantação de cada fábrica)
 
 - Na implantação, cada fábrica ganha um número de WhatsApp próprio com o chatbot do FábricaFlow, com chip incluso na mensalidade. O WhatsApp de atendimento da empresa continua separado.
-- Lança pedido por texto ou áudio: entende cliente, produto, quantidade, prazo e prioridade, sugere o setor pelo catálogo, mostra o resumo e pede confirmação. Com o pagamento confirmado por quem lançou, o pedido vai direto para a fila da produção, registrado com o nome da pessoa.
+- Lança pedido por mensagem de texto: entende cliente, produto, quantidade, prazo e prioridade, sugere o setor pelo catálogo, mostra o resumo e pede confirmação. Com o pagamento confirmado por quem lançou, o pedido vai direto para a fila da produção, registrado com o nome da pessoa.
 - Consulta a situação de um pedido pelo número.
 - Só atende números cadastrados da própria fábrica, respeitando o perfil de cada um.
 - Alertas automáticos para os gestores: pedido urgente ou de prioridade alta e insumo abaixo do mínimo, com o contato do fornecedor.
@@ -96,7 +96,7 @@ Sim. Cada cliente mostra a data do último pedido, o total de pedidos, os pedido
 
 ### Como funciona o pedido pelo WhatsApp?
 
-Na implantação, a fábrica ganha um chatbot de WhatsApp com número próprio. A vendedora manda texto ou áudio com o pedido; o chatbot entende cliente, produto, quantidade, prazo e prioridade, sugere o setor pelo catálogo, mostra o resumo e pede confirmação. Com o pagamento conferido, o pedido vai para a fila da produção, registrado com o nome de quem lançou. Também dá para consultar a situação de um pedido pelo número.
+Na implantação, a fábrica ganha um chatbot de WhatsApp com número próprio. A vendedora manda o pedido por mensagem de texto; o chatbot entende cliente, produto, quantidade, prazo e prioridade, sugere o setor pelo catálogo, mostra o resumo e pede confirmação. Com o pagamento conferido, o pedido vai para a fila da produção, registrado com o nome de quem lançou. Também dá para consultar a situação de um pedido pelo número.
 
 ### Preciso de um número de WhatsApp novo para o chatbot?
 
@@ -124,4 +124,4 @@ A mensalidade é definida conforme o porte da operação, o número de usuários
 
 ### Os dados da minha fábrica ficam seguros?
 
-Sim. Os dados ficam em servidores no Brasil (São Paulo), cada empresa só enxerga os próprios dados e o acesso é separado por perfil (administrador, gestor e operador). A plataforma foi pensada para atender à LGPD.
+Sim. Os dados da operação ficam armazenados em banco de dados em São Paulo, cada empresa só enxerga os próprios dados e o acesso é separado por perfil (administrador, gestor, vendedor e operador). Alterações importantes ficam registradas com o nome de quem fez, e depois da aprovação do pagamento o valor do pedido não pode mais ser alterado.

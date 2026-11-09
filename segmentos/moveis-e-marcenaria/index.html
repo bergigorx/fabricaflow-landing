@@ -85,7 +85,7 @@
         "Clientes com histórico de compra: último pedido, frequência e quem está há mais tempo sem pedir",
         "Controle de estoque com alerta de mínimo e fornecedor de cada insumo",
         "Mensagem pronta para avisar o cliente a cada etapa do pedido",
-        "Chatbot de WhatsApp da fábrica para lançar e consultar pedidos por texto ou áudio",
+        "Chatbot de WhatsApp da fábrica para lançar e consultar pedidos por mensagem de texto",
         "Alertas no WhatsApp dos gestores: pedido urgente e insumo abaixo do mínimo",
         "Perfis de acesso: administrador, gestor, vendedor e operador",
         "Relatórios de produção, prazos e faturamento",
@@ -174,7 +174,7 @@
       "name": "Como funciona o pedido pelo WhatsApp?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Na implantação, a fábrica ganha um chatbot de WhatsApp com número próprio. A vendedora manda texto ou áudio com o pedido; o chatbot entende cliente, produto, quantidade, prazo e prioridade, sugere o setor pelo catálogo, mostra o resumo e pede confirmação. Com o pagamento conferido, o pedido vai para a fila da produção, registrado com o nome de quem lançou. Também dá para consultar a situação de um pedido pelo número."
+        "text": "Na implantação, a fábrica ganha um chatbot de WhatsApp com número próprio. A vendedora manda o pedido por mensagem de texto; o chatbot entende cliente, produto, quantidade, prazo e prioridade, sugere o setor pelo catálogo, mostra o resumo e pede confirmação. Com o pagamento conferido, o pedido vai para a fila da produção, registrado com o nome de quem lançou. Também dá para consultar a situação de um pedido pelo número."
       }
     },
     {
@@ -230,7 +230,7 @@
       "name": "Os dados da minha fábrica ficam seguros?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Sim. Os dados ficam em servidores no Brasil (São Paulo), cada empresa só enxerga os próprios dados e o acesso é separado por perfil (administrador, gestor e operador). A plataforma foi pensada para atender à LGPD."
+        "text": "Sim. Os dados da operação ficam armazenados em banco de dados em São Paulo, cada empresa só enxerga os próprios dados e o acesso é separado por perfil (administrador, gestor, vendedor e operador). Alterações importantes ficam registradas com o nome de quem fez, e depois da aprovação do pagamento o valor do pedido não pode mais ser alterado."
       }
     }
   ]
@@ -424,7 +424,7 @@
         <li>
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 18.5V6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H8z"/><path d="M8 9h8M8 12h5"/></svg>
           <h3>Pedido sem retrabalho</h3>
-          <p>Cliente, produto, prioridade e setor sugerido pelo catálogo. Também por texto ou áudio no chatbot de WhatsApp.</p>
+          <p>Cliente, produto, prioridade e setor sugerido pelo catálogo. Também por mensagem de texto no chatbot de WhatsApp.</p>
         </li>
         <li>
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 20h18M5 20V10l5 3V10l5 3V6h4v14"/></svg>
@@ -471,7 +471,7 @@
         <p>Cada etapa é validada antes da próxima. Nenhum pedido entra em produção sem pagamento aprovado.</p>
       </header>
       <ol class="etapas">
-        <li><span class="etapa-num">1</span><h3>Pedido lançado</h3><p>Pela equipe no sistema ou por texto e áudio no chatbot de WhatsApp.</p></li>
+        <li><span class="etapa-num">1</span><h3>Pedido lançado</h3><p>Pela equipe no sistema ou por mensagem de texto no chatbot de WhatsApp.</p></li>
         <li><span class="etapa-num">2</span><h3>Setor e prioridade</h3><p>O catálogo sugere o setor que produz; a prioridade define a ordem.</p></li>
         <li><span class="etapa-num">3</span><h3>Comprovante anexado</h3><p>O comprovante do pagamento fica guardado no próprio pedido.</p></li>
         <li class="etapa-humana"><span class="etapa-num">4</span><span class="etiqueta">Decisão humana</span><h3>Pagamento aprovado</h3><p>Quem tem permissão confere e aprova em um clique.</p></li>
@@ -487,7 +487,7 @@
           <p class="selo-breve">Chatbot de WhatsApp</p>
           <h3>Lance o pedido por mensagem, do jeito que a equipe já conversa</h3>
           <ul class="lista-check">
-            <li>A vendedora manda texto ou áudio com o pedido</li>
+            <li>A vendedora manda o pedido por mensagem de texto</li>
             <li>O chatbot entende cliente, produto, quantidade, prazo e prioridade, sugere o setor e pede confirmação</li>
             <li>Com o pagamento conferido, o pedido vai direto para a fila da produção, com o nome de quem lançou</li>
             <li>Consulta a situação de qualquer pedido pelo número</li>
@@ -663,7 +663,7 @@
         </details>
         <details class="faq-item">
           <summary>Como funciona o pedido pelo WhatsApp?</summary>
-          <p>Na implantação, a fábrica ganha um chatbot de WhatsApp com número próprio. A vendedora manda texto ou áudio com o pedido; o chatbot entende cliente, produto, quantidade, prazo e prioridade, sugere o setor pelo catálogo, mostra o resumo e pede confirmação. Com o pagamento conferido, o pedido vai para a fila da produção, registrado com o nome de quem lançou. Também dá para consultar a situação de um pedido pelo número.</p>
+          <p>Na implantação, a fábrica ganha um chatbot de WhatsApp com número próprio. A vendedora manda o pedido por mensagem de texto; o chatbot entende cliente, produto, quantidade, prazo e prioridade, sugere o setor pelo catálogo, mostra o resumo e pede confirmação. Com o pagamento conferido, o pedido vai para a fila da produção, registrado com o nome de quem lançou. Também dá para consultar a situação de um pedido pelo número.</p>
         </details>
         <details class="faq-item">
           <summary>Preciso de um número de WhatsApp novo para o chatbot?</summary>
@@ -691,7 +691,7 @@
         </details>
         <details class="faq-item">
           <summary>Os dados da minha fábrica ficam seguros?</summary>
-          <p>Sim. Os dados ficam em servidores no Brasil (São Paulo), cada empresa só enxerga os próprios dados e o acesso é separado por perfil (administrador, gestor e operador). A plataforma foi pensada para atender à LGPD.</p>
+          <p>Sim. Os dados da operação ficam armazenados em banco de dados em São Paulo, cada empresa só enxerga os próprios dados e o acesso é separado por perfil (administrador, gestor, vendedor e operador). Alterações importantes ficam registradas com o nome de quem fez, e depois da aprovação do pagamento o valor do pedido não pode mais ser alterado.</p>
         </details>
       </div>
     </div>
