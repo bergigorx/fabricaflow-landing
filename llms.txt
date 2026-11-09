@@ -34,8 +34,8 @@ Idioma: português (Brasil). Atende fábricas em todo o Brasil.
 
 ## Chatbot de WhatsApp (ativado na implantação de cada fábrica)
 
-- Na implantação, cada fábrica ganha um número de WhatsApp próprio com o chatbot do FábricaFlow, com chip incluso na mensalidade. O WhatsApp de atendimento da empresa continua separado.
-- Lança pedido por mensagem de texto: entende cliente, produto, quantidade, prazo e prioridade, sugere o setor pelo catálogo, mostra o resumo e pede confirmação. Com o pagamento confirmado por quem lançou, o pedido vai direto para a fila da produção, registrado com o nome da pessoa.
+- Na implantação, cada fábrica ganha um número de WhatsApp próprio com o chatbot do FábricaFlow. O WhatsApp de atendimento da empresa continua separado.
+- Lança pedido por mensagem de texto: entende cliente, produto, quantidade, prazo e prioridade, sugere o setor pelo catálogo, mostra o resumo e pede confirmação. Com o pagamento confirmado por quem lançou, o pedido segue para a fila da produção, registrado com o nome da pessoa.
 - Consulta a situação de um pedido pelo número.
 - Só atende números cadastrados da própria fábrica, respeitando o perfil de cada um.
 - Alertas automáticos para os gestores: pedido urgente ou de prioridade alta e insumo abaixo do mínimo, com o contato do fornecedor.
@@ -100,7 +100,7 @@ Na implantação, a fábrica ganha um chatbot de WhatsApp com número próprio. 
 
 ### Preciso de um número de WhatsApp novo para o chatbot?
 
-Não precisa providenciar. Na implantação, cada fábrica recebe um número dedicado do chatbot, com o chip incluso na mensalidade. O WhatsApp de atendimento da empresa continua separado.
+Não precisa providenciar. Na implantação, cada fábrica recebe um número dedicado do chatbot. O WhatsApp de atendimento da empresa continua separado.
 
 ### Qualquer pessoa pode lançar pedido pelo WhatsApp?
 
