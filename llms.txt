@@ -68,6 +68,10 @@ Indústrias que seguem o fluxo pedido → produção → entrega e controlam est
 - Como calcular o estoque mínimo dos materiais da fábrica (com exemplo): https://fabricaflow.online/blog/estoque-minimo-fabrica/ (Markdown: https://fabricaflow.online/blog/estoque-minimo-fabrica/index.md)
 - Controle de produção na pequena fábrica: como sair da planilha e do WhatsApp: https://fabricaflow.online/blog/controle-de-producao-pequena-fabrica/ (Markdown: https://fabricaflow.online/blog/controle-de-producao-pequena-fabrica/index.md)
 
+
+## Modelos grátis
+
+- Planilha de controle de produção grátis (.xlsx, sem cadastro): https://fabricaflow.online/modelos/planilha-controle-de-producao/ (Markdown: https://fabricaflow.online/modelos/planilha-controle-de-producao/index.md). Pedidos com prioridade e atraso, fila por setor com carga contra capacidade, estoque mínimo com ponto de reposição e indicadores da semana. Arquivo: https://fabricaflow.online/modelos/planilha-controle-de-producao/modelo-controle-de-producao-fabricaflow.xlsx
 ## Perguntas frequentes
 
 ### O que é o FábricaFlow?
