@@ -1,0 +1,62 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><title>Ordem de produção</title>
+<style>
+@page{size:A4;margin:12mm}
+*{box-sizing:border-box}
+body{font-family:Arial,Helvetica,sans-serif;color:#0f2a43;font-size:10.5px;margin:0;width:184mm}
+.top{display:flex;justify-content:space-between;align-items:center;border-bottom:3px solid #e89a2b;padding-bottom:6px;margin-bottom:8px}
+h1{font-size:20px;margin:0;letter-spacing:.3px}
+.sub{font-size:9px;color:#5a6b7b;margin-top:2px}
+.nº{font-size:11px;text-align:right}
+.box{border:1px solid #9aa9b8;border-radius:3px;padding:4px 6px;min-height:30px}
+.lab{font-size:8px;text-transform:uppercase;letter-spacing:.6px;color:#5a6b7b;display:block;margin-bottom:10px}
+.row{display:grid;gap:6px;margin-bottom:6px}
+.c2{grid-template-columns:1fr 1fr}.c3{grid-template-columns:1fr 1fr 1fr}.c4{grid-template-columns:2fr 1fr 1fr 1fr}
+h2{font-size:10.5px;background:#0f2a43;color:#fff;padding:3px 6px;margin:8px 0 5px;border-radius:2px;letter-spacing:.4px}
+.chk span{display:inline-block;margin-right:12px;font-size:10.5px}
+.chk i{display:inline-block;width:10px;height:10px;border:1px solid #0f2a43;margin-right:4px;vertical-align:-1px}
+table{width:100%;border-collapse:collapse}
+th,td{border:1px solid #9aa9b8;padding:3px 5px;font-size:9.5px;text-align:left}
+th{background:#eef2f6;font-size:8.5px;text-transform:uppercase;letter-spacing:.4px}
+td{height:21px}
+.tall{min-height:58px}
+.sign{display:grid;grid-template-columns:1fr 1fr 1fr;gap:18px;margin-top:20px}
+.sign div{border-top:1px solid #0f2a43;padding-top:3px;font-size:8.5px;color:#5a6b7b;text-align:center}
+.foot{margin-top:10px;font-size:8px;color:#7b8a99;text-align:center}
+</style></head><body>
+<div class="top"><div><h1>ORDEM DE PRODUÇÃO</h1><div class="sub">Documento interno da produção · sem valores</div></div>
+<div class="nº"><b>Nº da OP:</b> ______________<br><b>Data de emissão:</b> ___ / ___ / ______</div></div>
+
+<div class="row c4">
+ <div class="box"><span class="lab">Cliente</span></div>
+ <div class="box"><span class="lab">Nº do pedido</span></div>
+ <div class="box"><span class="lab">Prazo prometido</span></div>
+ <div class="box"><span class="lab">Prioridade</span><div class="chk"><span><i></i>Normal</span><span><i></i>Alta</span><span><i></i>Urgente</span></div></div>
+</div>
+<div class="row c2">
+ <div class="box"><span class="lab">Produto / descrição</span></div>
+ <div class="box"><span class="lab">Quantidade</span></div>
+</div>
+<div class="box tall"><span class="lab">Especificações (medidas, material, cor, acabamento, arquivo ou desenho aprovado)</span></div>
+
+<h2>LIBERAÇÃO · confira antes de produzir</h2>
+<div class="chk box" style="min-height:24px;padding:6px 8px">
+<span><i></i>Pagamento ou sinal confirmado</span><span><i></i>Desenho / arte aprovado</span><span><i></i>Medidas conferidas</span><span><i></i>Material disponível</span>
+</div>
+<div class="row c2" style="margin-top:6px"><div class="box"><span class="lab">Liberado por</span></div><div class="box"><span class="lab">Data da liberação</span></div></div>
+
+<h2>MATERIAL NECESSÁRIO</h2>
+<table><tr><th style="width:44%">Material</th><th>Quantidade</th><th>Unidade</th><th>Em estoque?</th></tr>
+<tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr></table>
+
+<h2>ETAPAS · cada setor preenche a sua linha</h2>
+<table><tr><th style="width:20%">Setor</th><th>Início (data/hora)</th><th>Fim (data/hora)</th><th>Operador</th><th>Parou? Motivo (1 palavra)</th></tr>
+<tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr></table>
+
+<h2>CONFERÊNCIA FINAL E ENTREGA</h2>
+<div class="chk box" style="min-height:24px;padding:6px 8px"><span><i></i>Quantidade conferida</span><span><i></i>Acabamento conferido</span><span><i></i>Embalado / identificado</span><span><i></i>Cliente avisado</span></div>
+<div class="row c3" style="margin-top:6px"><div class="box"><span class="lab">Data de entrega</span></div><div class="box"><span class="lab">Entregue no prazo?</span><div class="chk"><span><i></i>Sim</span><span><i></i>Não</span></div></div><div class="box"><span class="lab">Dias de atraso</span></div></div>
+<div class="box tall" style="min-height:44px"><span class="lab">Observações / retrabalho</span></div>
+
+<div class="sign"><div>Liberação (gestor)</div><div>Responsável da produção</div><div>Conferência final</div></div>
+<div class="foot">Modelo grátis do FábricaFlow · fabricaflow.online/modelos/ordem-de-producao/</div>
+</body></html>
