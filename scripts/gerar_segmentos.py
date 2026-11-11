@@ -96,6 +96,7 @@ def gerar(base, seg):
     s = trocar(s, r"<title>.*?</title>", f"<title>{e(seg['titulo'])}</title>")
     s = trocar(s, r'<meta name="description" content=".*?">', f'<meta name="description" content="{e(seg["descricao"])}">')
     s = trocar(s, r'<link rel="canonical" href=".*?">', f'<link rel="canonical" href="{url}">')
+    s = trocar(s, r'<link rel="alternate" type="text/markdown" href=".*?">', f'<link rel="alternate" type="text/markdown" href="/segmentos/{seg['slug']}/index.md">')
     s = trocar(s, r'<link rel="alternate" hreflang="pt-BR" href=".*?">', f'<link rel="alternate" hreflang="pt-BR" href="{url}">')
     s = trocar(s, r'<meta property="og:url" content=".*?">', f'<meta property="og:url" content="{url}">')
     s = trocar(s, r'<meta property="og:title" content=".*?">', f'<meta property="og:title" content="{e(seg["h1"])} | FábricaFlow">')
