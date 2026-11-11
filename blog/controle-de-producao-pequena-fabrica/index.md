@@ -96,7 +96,7 @@ Não é uma escolha excludente. Muitas fábricas mantêm o ERP para emitir nota 
 
 ## Resumo
 
-Um bom controle de produção na pequena fábrica se apoia em cinco pilares: pedido registrado em um só lugar, critério de liberação, fila visível por setor, estoque com mínimo e aviso ao cliente. Com um plano de 4 semanas e poucos indicadores, dá para sair da planilha e do WhatsApp sem parar a fábrica.
+Um bom controle de produção na pequena fábrica se apoia em cinco pilares: pedido registrado em um só lugar, critério de liberação, fila visível por setor, estoque com mínimo e aviso ao cliente. Com um plano de 4 semanas e poucos indicadores, dá para sair da planilha e do WhatsApp sem parar a fábrica. Para começar hoje, baixe a [planilha de controle de produção grátis](https://fabricaflow.online/modelos/planilha-controle-de-producao/), com pedidos, fila por setor e estoque mínimo.
 
 ## Quer ver esse fluxo funcionando na sua fábrica?
 

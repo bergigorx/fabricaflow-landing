@@ -509,3 +509,5 @@ body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-a
 .artigo-corpo ul.checklist { list-style: none; padding-left: 0; }
 .checklist li { position: relative; padding-left: 34px; }
 .checklist li::before { content: ""; position: absolute; left: 0; top: .3em; width: 18px; height: 18px; border: 2px solid var(--marinho); border-radius: 5px; background: var(--branco); }
+
+.artigo-corpo a.botao { color: var(--marinho); text-decoration: none; }

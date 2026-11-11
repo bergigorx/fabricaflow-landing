@@ -97,7 +97,7 @@ Saldo de cada material contra o estoque mínimo, com alerta, no FábricaFlow (da
 
 ## Resumo
 
-Estoque mínimo = consumo médio diário × prazo de reposição + estoque de segurança. Para materiais críticos, calcule a segurança pelo pior caso; para os demais, alguns dias de cobertura bastam. Comece pelos itens que param a produção, mantenha o saldo atualizado e revise a cada trimestre. Se o saldo do ERP e o da fábrica não batem, vale entender a [diferença entre ERP e MES](https://fabricaflow.online/blog/erp-ou-mes-qual-usar-na-fabrica/).
+Estoque mínimo = consumo médio diário × prazo de reposição + estoque de segurança. Para materiais críticos, calcule a segurança pelo pior caso; para os demais, alguns dias de cobertura bastam. Comece pelos itens que param a produção, mantenha o saldo atualizado e revise a cada trimestre. Se o saldo do ERP e o da fábrica não batem, vale entender a [diferença entre ERP e MES](https://fabricaflow.online/blog/erp-ou-mes-qual-usar-na-fabrica/). As duas fórmulas já vêm prontas na [planilha de controle de produção grátis](https://fabricaflow.online/modelos/planilha-controle-de-producao/).
 
 ## Receba o alerta antes de faltar material
 
