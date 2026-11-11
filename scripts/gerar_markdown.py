@@ -15,6 +15,7 @@ PAGINAS = [
     "segmentos/papel-e-embalagens/index.html", "segmentos/moveis-e-marcenaria/index.html",
     "segmentos/metalurgia-e-serralheria/index.html",
     "blog/index.html",
+    "modelos/planilha-controle-de-producao/index.html",
     "blog/erp-ou-mes-qual-usar-na-fabrica/index.html",
     "blog/implantacao-sistema-gestao-fabrica-checklist/index.html",
     "blog/pedido-whatsapp-industria/index.html",

@@ -6,6 +6,11 @@ Blog
 
 Guias diretos para quem toca uma fábrica: produção, estoque, pedidos e atendimento ao cliente.
 
+- [Modelo grátis · .xlsx
+
+  ## Planilha de controle de produção grátis para fábrica pequena
+
+  Pedidos, fila por setor, estoque mínimo e indicadores em um só arquivo. Download direto, sem cadastro.](https://fabricaflow.online/modelos/planilha-controle-de-producao/)
 - [Implantação · 5 min
 
   ## Implantação de sistema de gestão na fábrica: checklist passo a passo
