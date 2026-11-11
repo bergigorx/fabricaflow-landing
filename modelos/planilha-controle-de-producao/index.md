@@ -37,6 +37,8 @@ Aba “Fila por setor”, com os dados de exemplo da planilha.
 
 Os valores que já estão preenchidos são exemplos fictícios. Apague e use os seus.
 
+Precisa da ordem de produção para imprimir? [Baixe o modelo de ordem de produção grátis](https://fabricaflow.online/modelos/ordem-de-producao/).
+
 ## As duas fórmulas do estoque mínimo
 
 - **Estoque de segurança** = consumo por dia × atraso comum do fornecedor.

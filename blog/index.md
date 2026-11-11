@@ -6,6 +6,11 @@ Blog
 
 Guias diretos para quem toca uma fábrica: produção, estoque, pedidos e atendimento ao cliente.
 
+- [Modelo grátis · PDF
+
+  ## Modelo de ordem de produção grátis para fábrica pequena
+
+  PDF de uma página para imprimir e preencher: liberação, material, etapas por setor, conferência final e entrega.](https://fabricaflow.online/modelos/ordem-de-producao/)
 - [Modelo grátis · .xlsx
 
   ## Planilha de controle de produção grátis para fábrica pequena
