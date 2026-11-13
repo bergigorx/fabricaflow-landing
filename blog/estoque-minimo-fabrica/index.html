@@ -5,8 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' https://static.cloudflareinsights.com; style-src 'self'; img-src 'self' data:; font-src 'self'; media-src 'self'; connect-src https://hooks.zapier.com https://cloudflareinsights.com; base-uri 'none'; form-action 'none'; object-src 'none'">
 <meta name="referrer" content="strict-origin-when-cross-origin">
-<title>Estoque mínimo: como calcular, com exemplo | FábricaFlow</title>
-<meta name="description" content="Aprenda a calcular o estoque mínimo dos materiais da fábrica: fórmula, estoque de segurança e dois exemplos resolvidos, de papelão e de móveis.">
+<title>Estoque mínimo: o que é e como calcular (com planilha)</title>
+<meta name="description" content="Estoque mínimo: o que é, fórmula, estoque de segurança e ponto de pedido, com exemplos de fábrica e planilha grátis para calcular.">
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
 <meta name="theme-color" content="#0f2a43">
 <meta name="author" content="Igor Bergara">
@@ -16,8 +16,8 @@
 <meta property="og:site_name" content="FábricaFlow">
 <meta property="og:locale" content="pt_BR">
 <meta property="og:url" content="https://fabricaflow.online/blog/estoque-minimo-fabrica/">
-<meta property="og:title" content="Como calcular o estoque mínimo dos materiais da fábrica (com exemplo)">
-<meta property="og:description" content="A fórmula do estoque mínimo, os três números necessários e dois exemplos resolvidos, de papelão e de móveis.">
+<meta property="og:title" content="Estoque mínimo: o que é e como calcular (com planilha)">
+<meta property="og:description" content="Estoque mínimo: o que é, fórmula, estoque de segurança e ponto de pedido, com exemplos de fábrica e planilha grátis para calcular.">
 <meta property="og:image" content="https://fabricaflow.online/blog/img/capa-estoque-minimo.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
@@ -35,25 +35,104 @@
       "@type": "Article",
       "headline": "Como calcular o estoque mínimo dos materiais da fábrica (com exemplo)",
       "description": "A fórmula do estoque mínimo, os três números necessários e dois exemplos resolvidos, de papelão e de móveis.",
-      "image": ["https://fabricaflow.online/blog/img/capa-estoque-minimo.jpg", "https://fabricaflow.online/blog/img/estoque-minimo-grafico.svg"],
+      "image": [
+        "https://fabricaflow.online/blog/img/capa-estoque-minimo.jpg",
+        "https://fabricaflow.online/blog/img/estoque-minimo-grafico.svg"
+      ],
       "datePublished": "2026-10-27",
-      "dateModified": "2026-10-27",
+      "dateModified": "2026-11-13",
       "inLanguage": "pt-BR",
       "mainEntityOfPage": "https://fabricaflow.online/blog/estoque-minimo-fabrica/",
-      "author": { "@type": "Person", "name": "Igor Bergara", "url": "https://fabricaflow.online/" },
+      "author": {
+        "@type": "Person",
+        "name": "Igor Bergara",
+        "url": "https://fabricaflow.online/sobre/"
+      },
       "publisher": {
         "@type": "Organization",
         "name": "FábricaFlow",
         "url": "https://fabricaflow.online/",
-        "logo": { "@type": "ImageObject", "url": "https://fabricaflow.online/img/logo-fabricaflow.png" }
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://fabricaflow.online/img/logo-fabricaflow.png"
+        }
       }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://fabricaflow.online/blog/estoque-minimo-fabrica/#perguntas",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "O que é estoque mínimo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "É a quantidade de um material abaixo da qual é preciso comprar para não parar a produção. Ele cobre o consumo durante o prazo de reposição do fornecedor mais uma reserva de segurança."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Como calcular o estoque mínimo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Multiplique o consumo médio diário pelo prazo de reposição em dias e some o estoque de segurança. Exemplo: 15 chapas por dia × 5 dias + 30 chapas de segurança = 105 chapas."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Qual a diferença entre estoque mínimo e estoque de segurança?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "O estoque de segurança é só a reserva para imprevistos, como um atraso do fornecedor. O estoque mínimo, como calculamos aqui, é o consumo durante o prazo mais essa reserva."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Estoque mínimo e ponto de pedido são a mesma coisa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Na prática da fábrica, sim: é o saldo em que a compra deve sair. Alguns autores chamam de estoque mínimo só a reserva de segurança; vale definir o termo que a sua equipe vai usar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Como definir o estoque mínimo sem histórico?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Comece com uma estimativa do encarregado de consumo por dia e de prazo do fornecedor, use 2 a 5 dias de segurança e ajuste depois de um mês de lançamentos."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Existe planilha de estoque mínimo grátis?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sim. A planilha de controle de produção grátis do FábricaFlow tem uma aba de estoque mínimo que calcula o estoque de segurança e o ponto de reposição e avisa “Pedir agora”."
+          }
+        }
+      ]
     },
     {
       "@type": "BreadcrumbList",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "FábricaFlow", "item": "https://fabricaflow.online/" },
-        { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://fabricaflow.online/blog/" },
-        { "@type": "ListItem", "position": 3, "name": "Estoque mínimo da fábrica", "item": "https://fabricaflow.online/blog/estoque-minimo-fabrica/" }
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "FábricaFlow",
+          "item": "https://fabricaflow.online/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://fabricaflow.online/blog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Estoque mínimo da fábrica",
+          "item": "https://fabricaflow.online/blog/estoque-minimo-fabrica/"
+        }
       ]
     }
   ]
@@ -119,12 +198,16 @@
         <p class="sobretitulo">Controle de estoque</p>
         <h1>Como calcular o estoque mínimo dos materiais da fábrica (com exemplo)</h1>
         <p class="artigo-linha-fina">A fórmula, os três números de que você precisa e dois exemplos resolvidos, para nunca mais parar a máquina por falta de material.</p>
-        <p class="artigo-meta">Por Igor Bergara · 27 de outubro de 2026 · 4 min de leitura</p>
+        <p class="artigo-meta">Por <a href="/sobre/">Igor Bergara</a> · Publicado em 27 de outubro de 2026 · Atualizado em <time datetime="2026-11-13">13 de novembro de 2026</time> · 7 min de leitura</p>
       </header>
 
       <div class="artigo-corpo">
-        <p>Material que acaba sem aviso é uma das formas mais caras de perder dinheiro na fábrica: a máquina para, o pedido atrasa, a compra sai às pressas e mais cara. O contrário também custa: estoque demais prende o caixa e ocupa espaço. O estoque mínimo existe para resolver esse equilíbrio. É o ponto em que você precisa comprar para que o material chegue antes de acabar.</p>
+        <p>Estoque mínimo é a quantidade de um material abaixo da qual você precisa comprar para não parar a produção. Material que acaba sem aviso é uma das formas mais caras de perder dinheiro na fábrica: a máquina para, o pedido atrasa, a compra sai às pressas e mais cara. O contrário também custa: estoque demais prende o caixa e ocupa espaço. O estoque mínimo existe para resolver esse equilíbrio.</p>
         <p>Neste guia você vai ver a fórmula, os dados necessários e dois exemplos resolvidos, um de papelão e um de móveis.</p>
+        <div class="resposta-rapida" role="note" aria-label="Resposta rápida">
+          <p class="resposta-rapida-rotulo">Resposta rápida</p>
+          <p>Estoque mínimo = consumo médio diário × prazo de reposição + estoque de segurança. Exemplo: com consumo de 15 chapas por dia, prazo de 5 dias e 2 dias de segurança, o estoque mínimo é 15 × 5 + 15 × 2 = 105 chapas. Quando o saldo chegar a esse número, é hora de comprar. A <a href="/modelos/planilha-controle-de-producao/">planilha de controle de produção grátis</a> já traz a conta pronta.</p>
+        </div>
 
         <h2>Estoque mínimo, estoque de segurança e ponto de pedido</h2>
         <p>Os três termos costumam ser usados como se fossem a mesma coisa. Vale separar:</p>
@@ -133,6 +216,7 @@
           <li><strong>Ponto de pedido:</strong> o saldo em que você precisa fazer a compra. É o consumo durante o prazo de entrega do fornecedor mais o estoque de segurança.</li>
           <li><strong>Estoque mínimo:</strong> no dia a dia da fábrica, é o número que dispara o alerta de compra. Na prática, o mais útil é usar o ponto de pedido como estoque mínimo, e é isso que este guia ensina a calcular.</li>
         </ul>
+        <p><strong>Atenção:</strong> alguns materiais didáticos definem o estoque mínimo só como o consumo durante o prazo de reposição, sem a segurança. Aqui incluímos a segurança, porque é o que evita a parada quando o fornecedor atrasa.</p>
 
         <figure class="artigo-figura">
           <img src="/blog/img/estoque-minimo-grafico.svg" width="640" height="520" alt="Gráfico do saldo de um material ao longo do tempo: o saldo cai até o estoque mínimo, a compra é feita, o saldo continua caindo durante o prazo de reposição e sobe quando o material chega; a faixa de estoque de segurança cobre um consumo acima do normal.">
@@ -181,6 +265,10 @@
           <li>Estoque mínimo: 75 + 30 = <strong>105 chapas</strong>.</li>
         </ol>
 
+        <h2>E o estoque máximo? E o estoque médio?</h2>
+        <p>O <strong>estoque máximo</strong> é o teto que o saldo pode atingir sem prender caixa nem ocupar espaço. Uma forma comum de calcular é estoque mínimo + lote de reposição, que é a quantidade comprada de cada vez. No exemplo da chapa de MDF, com estoque mínimo de 105 chapas e lote de compra de 150 chapas, o estoque máximo é de 255 chapas.</p>
+        <p>O <strong>estoque médio</strong> é (estoque no início do período + estoque no fim) ÷ 2. Ele mede quanto dinheiro fica parado em material, e não serve para decidir quando comprar. Se o saldo de MDF era de 200 chapas no começo do mês e de 120 no fim, o estoque médio é de 160 chapas.</p>
+
         <h2>Resumo dos exemplos</h2>
         <div class="tabela-rolagem">
           <table class="tabela">
@@ -206,6 +294,16 @@
           <img src="/img/estoque-800.webp" srcset="/img/estoque-800.webp 800w, /img/estoque.webp 1440w" sizes="(max-width: 760px) 92vw, 720px" width="800" height="500" alt="Tela de estoque do FábricaFlow com o saldo de cada material, o estoque mínimo e o alerta de estoque baixo." loading="lazy" decoding="async">
           <figcaption>Saldo de cada material contra o estoque mínimo, com alerta, no FábricaFlow (dados de demonstração).</figcaption>
         </figure>
+        <h2>Estoque mínimo na indústria: o que muda em relação ao varejo</h2>
+        <ul>
+          <li><strong>O consumo vem da produção, não das vendas.</strong> Em vez de olhar só a média do passado, olhe o que as ordens de produção das próximas semanas vão consumir.</li>
+          <li><strong>O fornecedor vende em lote.</strong> Bobina vem por carga e tinta por bombona; o lote mínimo de compra pesa no saldo.</li>
+          <li><strong>O prazo começa dentro de casa.</strong> Conte o tempo de alguém perceber a falta e aprovar a compra.</li>
+          <li><strong>Alguns materiais vencem.</strong> Cola e tinta têm validade; segurança demais vira perda.</li>
+          <li><strong>Um material serve vários produtos.</strong> Some o consumo de todos os pedidos que usam o mesmo material.</li>
+        </ul>
+        <p><em>Os números a seguir são fictícios e servem só para mostrar o raciocínio.</em> As ordens da semana que vem usam 90 chapas de MDF em 6 dias de produção: 15 chapas por dia, o mesmo da média. Se entrar um pedido grande de 150 chapas, o consumo previsto passa a 240 chapas em 6 dias, ou 40 por dia. O estoque mínimo calculado pela média (105 chapas) fica curto: 40 × 5 + 40 × 2 = 280 chapas. Por isso a conta deve acompanhar as ordens de produção. Se ainda não usa ordem de produção, baixe o <a href="/modelos/ordem-de-producao/">modelo grátis de ordem de produção</a>.</p>
+
         <h2>Erros comuns</h2>
         <ul>
           <li><strong>Calcular com o saldo errado:</strong> se as saídas não são lançadas, o alerta dispara tarde. Estoque mínimo só funciona com saldo confiável.</li>
@@ -216,6 +314,20 @@
 
         <h2>Resumo</h2>
         <p>Estoque mínimo = consumo médio diário × prazo de reposição + estoque de segurança. Para materiais críticos, calcule a segurança pelo pior caso; para os demais, alguns dias de cobertura bastam. Comece pelos itens que param a produção, mantenha o saldo atualizado e revise a cada trimestre. Se o saldo do ERP e o da fábrica não batem, vale entender a <a href="/blog/erp-ou-mes-qual-usar-na-fabrica/">diferença entre ERP e MES</a>. As duas fórmulas já vêm prontas na <a href="/modelos/planilha-controle-de-producao/">planilha de controle de produção grátis</a>.</p>
+
+        <h2 id="perguntas">Perguntas frequentes</h2>
+        <h3>O que é estoque mínimo?</h3>
+        <p>É a quantidade de um material abaixo da qual é preciso comprar para não parar a produção. Ele cobre o consumo durante o prazo de reposição do fornecedor mais uma reserva de segurança.</p>
+        <h3>Como calcular o estoque mínimo?</h3>
+        <p>Multiplique o consumo médio diário pelo prazo de reposição em dias e some o estoque de segurança. Exemplo: 15 chapas por dia × 5 dias + 30 chapas de segurança = 105 chapas.</p>
+        <h3>Qual a diferença entre estoque mínimo e estoque de segurança?</h3>
+        <p>O estoque de segurança é só a reserva para imprevistos, como um atraso do fornecedor. O estoque mínimo, como calculamos aqui, é o consumo durante o prazo mais essa reserva.</p>
+        <h3>Estoque mínimo e ponto de pedido são a mesma coisa?</h3>
+        <p>Na prática da fábrica, sim: é o saldo em que a compra deve sair. Alguns autores chamam de estoque mínimo só a reserva de segurança; vale definir o termo que a sua equipe vai usar.</p>
+        <h3>Como definir o estoque mínimo sem histórico?</h3>
+        <p>Comece com uma estimativa do encarregado de consumo por dia e de prazo do fornecedor, use 2 a 5 dias de segurança e ajuste depois de um mês de lançamentos.</p>
+        <h3>Existe planilha de estoque mínimo grátis?</h3>
+        <p>Sim. A <a href="/modelos/planilha-controle-de-producao/">planilha de controle de produção grátis</a> do FábricaFlow tem uma aba de estoque mínimo que calcula o estoque de segurança e o ponto de reposição e avisa “Pedir agora”.</p>
       </div>
 
       <aside class="artigo-cta">
