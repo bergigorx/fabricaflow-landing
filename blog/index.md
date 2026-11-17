@@ -6,6 +6,11 @@ Blog
 
 Guias diretos para quem toca uma fábrica: produção, estoque, pedidos e atendimento ao cliente.
 
+- [Gestão da produção · 7 min
+
+  ## PCP na pequena fábrica: o que é e como fazer sem um setor de planejamento
+
+  As cinco decisões da semana, um exemplo de carga contra capacidade e como definir o prazo que você promete.](https://fabricaflow.online/blog/pcp-pequena-fabrica/)
 - [Modelo grátis · PDF
 
   ## Modelo de ordem de produção grátis para fábrica pequena

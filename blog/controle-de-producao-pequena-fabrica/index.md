@@ -30,7 +30,7 @@ Controle de produção é saber, a qualquer momento, **o que entrou, o que está
 
 ## Controle de produção ou PCP: qual a diferença?
 
-PCP (planejamento e controle da produção) é a área que decide o que produzir, quando e com quais recursos, e depois acompanha se o planejado aconteceu. O planejamento olha para a frente: prazos, capacidade, compras. O controle olha para o que está acontecendo agora: status, atrasos, paradas e consumo de material. Na fábrica pequena, uma pessoa costuma fazer os dois, e o que mais falta é o controle do dia a dia, porque o planejamento se resolve na conversa entre o dono e o encarregado. Por isso este guia começa pelo controle.
+PCP (planejamento e controle da produção) é a área que decide o que produzir, quando e com quais recursos, e depois acompanha se o planejado aconteceu. O planejamento olha para a frente: prazos, capacidade, compras. O controle olha para o que está acontecendo agora: status, atrasos, paradas e consumo de material. Na fábrica pequena, uma pessoa costuma fazer os dois, e o que mais falta é o controle do dia a dia, porque o planejamento se resolve na conversa entre o dono e o encarregado. Por isso este guia começa pelo controle. Para a parte do planejamento, veja o guia de [PCP na pequena fábrica](https://fabricaflow.online/blog/pcp-pequena-fabrica/), com as cinco decisões da semana.
 
 ## Os 5 pilares de um controle de produção que funciona
 

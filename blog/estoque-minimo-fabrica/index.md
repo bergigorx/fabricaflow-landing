@@ -153,7 +153,7 @@ No FábricaFlow, cada entrada, saída e ajuste fica registrado e o saldo é atua
 
 [Agendar demonstração de 20 min](https://fabricaflow.online/#contato)
 
-Leia também: [controle de produção na pequena fábrica](https://fabricaflow.online/blog/controle-de-producao-pequena-fabrica/) · [papel e embalagens](https://fabricaflow.online/segmentos/papel-e-embalagens/) · [móveis e marcenaria](https://fabricaflow.online/segmentos/moveis-e-marcenaria/)
+Leia também: [controle de produção na pequena fábrica](https://fabricaflow.online/blog/controle-de-producao-pequena-fabrica/) · [papel e embalagens](https://fabricaflow.online/segmentos/papel-e-embalagens/) · [móveis e marcenaria](https://fabricaflow.online/segmentos/moveis-e-marcenaria/) · [PCP na pequena fábrica](https://fabricaflow.online/blog/pcp-pequena-fabrica/)
 
 ---
 
