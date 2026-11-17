@@ -62,6 +62,7 @@ Indústrias que seguem o fluxo pedido → produção → entrega e controlam est
 
 ## Artigos
 
+- PCP na pequena fábrica: o que é e como fazer: https://fabricaflow.online/blog/pcp-pequena-fabrica/ (Markdown: https://fabricaflow.online/blog/pcp-pequena-fabrica/index.md) (PCP é decidir o que produzir, quando e com quais recursos, e acompanhar o que está acontecendo. Cinco decisões por semana, exemplo de carga contra capacidade e cálculo do prazo a prometer.)
 - Implantação de sistema de gestão na fábrica: checklist passo a passo: https://fabricaflow.online/blog/implantacao-sistema-gestao-fabrica-checklist/ (Markdown: https://fabricaflow.online/blog/implantacao-sistema-gestao-fabrica-checklist/index.md) (Cinco etapas para implantar sistema de gestão (ERP ou sistema de produção) na fábrica sem parar a produção: problema e responsável, fluxo real, dados, piloto e acompanhamento.)
 - ERP ou MES: qual a diferença e qual usar na fábrica pequena: https://fabricaflow.online/blog/erp-ou-mes-qual-usar-na-fabrica/ (Markdown: https://fabricaflow.online/blog/erp-ou-mes-qual-usar-na-fabrica/index.md) (O ERP cuida de financeiro, fiscal e compras; o MES ou sistema de controle de produção cuida da fila, do status e dos alertas no chão de fábrica. Guia para a pequena indústria decidir.)
 - Pedido pelo WhatsApp na indústria: como registrar sem perder nenhum: https://fabricaflow.online/blog/pedido-whatsapp-industria/ (Markdown: https://fabricaflow.online/blog/pedido-whatsapp-industria/index.md)
