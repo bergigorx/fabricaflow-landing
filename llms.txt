@@ -73,7 +73,7 @@ Indústrias que seguem o fluxo pedido → produção → entrega e controlam est
 ## Modelos grátis
 
 - Planilha de controle de produção grátis (.xlsx, sem cadastro): https://fabricaflow.online/modelos/planilha-controle-de-producao/ (Markdown: https://fabricaflow.online/modelos/planilha-controle-de-producao/index.md). Pedidos com prioridade e atraso, fila por setor com carga contra capacidade, estoque mínimo com ponto de reposição e indicadores da semana. Arquivo: https://fabricaflow.online/modelos/planilha-controle-de-producao/modelo-controle-de-producao-fabricaflow.xlsx
-- Modelo de ordem de produção grátis (PDF de uma página para imprimir, sem cadastro): https://fabricaflow.online/modelos/ordem-de-producao/ (Markdown: https://fabricaflow.online/modelos/ordem-de-producao/index.md). Campos de liberação, material necessário, etapas por setor com início, fim, operador e motivo de parada, conferência final e entrega, sem valores. Arquivo: https://fabricaflow.online/modelos/ordem-de-producao/modelo-ordem-de-producao-fabricaflow.pdf
+- Modelo de ordem de produção grátis (PDF de uma página para imprimir e versão em Excel .xlsx para preencher no computador, sem cadastro): https://fabricaflow.online/modelos/ordem-de-producao/ (Markdown: https://fabricaflow.online/modelos/ordem-de-producao/index.md). Campos de liberação, material necessário, etapas por setor com início, fim, operador e motivo de parada, conferência final e entrega, sem valores. Arquivos: https://fabricaflow.online/modelos/ordem-de-producao/modelo-ordem-de-producao-fabricaflow.pdf e https://fabricaflow.online/modelos/ordem-de-producao/modelo-ordem-de-producao-fabricaflow.xlsx
 ## Perguntas frequentes
 
 ### O que é o FábricaFlow?
