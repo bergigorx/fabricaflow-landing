@@ -36,6 +36,16 @@
 
 /* Layout: faixas de largura total que alternam papel claro e azul-marinho; conteúdo em uma coluna de até 1160px.
    Identidade da apresentação: azul-marinho, âmbar e fundo creme. Tema único (claro) por escolha. */
+/* Fontes provisórias com medidas ajustadas: enquanto Archivo e Inter carregam, o texto ocupa o mesmo espaço (evita deslocamento de layout) */
+@font-face { font-family: "Archivo Fallback"; src: local("Roboto Bold"), local("Roboto-Bold"); font-weight: 600 900; size-adjust: 95%;  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2013-2014, U+2018-201E, U+2022, U+2026, U+20AC; }
+@font-face { font-family: "Archivo Fallback"; src: local("Roboto"), local("Roboto-Regular"); font-weight: 100 599; size-adjust: 95%;  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2013-2014, U+2018-201E, U+2022, U+2026, U+20AC; }
+@font-face { font-family: "Archivo Fallback Arial"; src: local("Arial Bold"), local("Arial-BoldMT"), local("Liberation Sans Bold"), local("Helvetica Bold"); font-weight: 600 900; size-adjust: 89.6%;  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2013-2014, U+2018-201E, U+2022, U+2026, U+20AC; }
+@font-face { font-family: "Archivo Fallback Arial"; src: local("Arial"), local("ArialMT"), local("Liberation Sans"), local("Helvetica"); font-weight: 100 599; size-adjust: 89.6%;  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2013-2014, U+2018-201E, U+2022, U+2026, U+20AC; }
+@font-face { font-family: "Inter Fallback"; src: local("Roboto Medium"), local("Roboto-Medium"); font-weight: 500 900; size-adjust: 108%;  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2013-2014, U+2018-201E, U+2022, U+2026, U+20AC; }
+@font-face { font-family: "Inter Fallback"; src: local("Roboto"), local("Roboto-Regular"); font-weight: 100 499; size-adjust: 107%;  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2013-2014, U+2018-201E, U+2022, U+2026, U+20AC; }
+@font-face { font-family: "Inter Fallback Arial"; src: local("Arial Bold"), local("Arial-BoldMT"), local("Liberation Sans Bold"), local("Helvetica Bold"); font-weight: 600 900; size-adjust: 102%;  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2013-2014, U+2018-201E, U+2022, U+2026, U+20AC; }
+@font-face { font-family: "Inter Fallback Arial"; src: local("Arial"), local("ArialMT"), local("Liberation Sans"), local("Helvetica"); font-weight: 100 599; size-adjust: 106.8%;  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2013-2014, U+2018-201E, U+2022, U+2026, U+20AC; }
+
 :root {
   --marinho: #0f2a43;
   --marinho-2: #17395a;
@@ -52,8 +62,8 @@
   --sobre-marinho: #e9eef3;
   --sobre-marinho-2: #a9bacb;
 
-  --fonte-titulo: "Archivo", "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
-  --fonte-texto: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --fonte-titulo: "Archivo", "Archivo Fallback", "Archivo Fallback Arial", "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
+  --fonte-texto: "Inter", "Inter Fallback", "Inter Fallback Arial", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 
   --t-xs: 0.8125rem;
   --t-s: 0.9375rem;
@@ -513,3 +523,6 @@ body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-a
 .artigo-corpo a.botao { color: var(--marinho); text-decoration: none; }
 .artigo-corpo a.botao-secundario:hover { color: var(--papel); }
 .botoes-download { display: flex; flex-wrap: wrap; gap: 12px; }
+
+/* Botões do topo empilhados no computador: é como já aparecem com a fonte do site (somam 1 px a mais que a coluna); fixar evita que pulem de linha quando a fonte troca */
+@media (min-width: 961px) { .hero-acoes { flex-direction: column; align-items: flex-start; } }
