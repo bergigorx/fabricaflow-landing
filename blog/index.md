@@ -36,16 +36,24 @@ Guias diretos para quem toca uma fábrica: produção, estoque, pedidos e atendi
   ## Pedido pelo WhatsApp na indústria: como registrar sem perder nenhum
 
   Por que pedidos se perdem nas conversas, o que todo pedido precisa ter e um fluxo de 6 passos até a produção.](https://fabricaflow.online/blog/pedido-whatsapp-industria/)
-- [Controle de estoque · 4 min
+- [Controle de estoque · 7 min
 
-  ## Como calcular o estoque mínimo dos materiais da fábrica (com exemplo)
+  ## Estoque mínimo: o que é e como calcular (com planilha)
 
   A fórmula, os três números de que você precisa e dois exemplos resolvidos, de papelão e de móveis.](https://fabricaflow.online/blog/estoque-minimo-fabrica/)
-- [Gestão da produção · 5 min
+- [Gestão da produção · 7 min
 
-  ## Controle de produção na pequena fábrica: como sair da planilha e do WhatsApp
+  ## Controle de produção: o que é e como fazer na fábrica
 
   Os 5 pilares de um controle de produção que funciona, um plano de 4 semanas e os números que o gestor precisa olhar toda semana.](https://fabricaflow.online/blog/controle-de-producao-pequena-fabrica/)
+
+## Publicado em outros veículos
+
+- [EmbalagemMarca · artigo de Igor Bergara
+
+  ## Bobina, cola e tinta: como a pequena fábrica de embalagens evita parar a produção por falta de material
+
+  Como calcular o ponto de reposição de cada insumo e definir o estoque de segurança na fábrica de papelão ondulado. Abre no site da EmbalagemMarca.](https://embalagemmarca.com.br/tipos-de-embalagens/bobina-cola-e-tinta/)
 
 ---
 
