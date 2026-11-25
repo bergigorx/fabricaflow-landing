@@ -526,3 +526,5 @@ body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-a
 
 /* Botões do topo empilhados no computador: é como já aparecem com a fonte do site (somam 1 px a mais que a coluna); fixar evita que pulem de linha quando a fonte troca */
 @media (min-width: 961px) { .hero-acoes { flex-direction: column; align-items: flex-start; } }
+
+.blog-externo-titulo { margin: 40px 0 16px; }

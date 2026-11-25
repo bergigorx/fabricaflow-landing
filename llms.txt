@@ -70,6 +70,10 @@ Indústrias que seguem o fluxo pedido → produção → entrega e controlam est
 - Controle de produção: o que é e como fazer na fábrica (5 pilares, PCP, ordem de produção, indicadores): https://fabricaflow.online/blog/controle-de-producao-pequena-fabrica/ (Markdown: https://fabricaflow.online/blog/controle-de-producao-pequena-fabrica/index.md)
 
 
+## Publicações em outros veículos
+
+- Bobina, cola e tinta: como a pequena fábrica de embalagens evita parar a produção por falta de material (artigo de Igor Bergara, fundador do FábricaFlow, na revista EmbalagemMarca, novembro de 2026): https://embalagemmarca.com.br/tipos-de-embalagens/bobina-cola-e-tinta/
+
 ## Modelos grátis
 
 - Planilha de controle de produção grátis (.xlsx, sem cadastro): https://fabricaflow.online/modelos/planilha-controle-de-producao/ (Markdown: https://fabricaflow.online/modelos/planilha-controle-de-producao/index.md). Pedidos com prioridade e atraso, fila por setor com carga contra capacidade, estoque mínimo com ponto de reposição e indicadores da semana. Arquivo: https://fabricaflow.online/modelos/planilha-controle-de-producao/modelo-controle-de-producao-fabricaflow.xlsx
