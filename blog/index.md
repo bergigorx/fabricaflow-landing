@@ -54,6 +54,11 @@ Guias diretos para quem toca uma fábrica: produção, estoque, pedidos e atendi
   ## Bobina, cola e tinta: como a pequena fábrica de embalagens evita parar a produção por falta de material
 
   Como calcular o ponto de reposição de cada insumo e definir o estoque de segurança na fábrica de papelão ondulado. Abre no site da EmbalagemMarca.](https://embalagemmarca.com.br/tipos-de-embalagens/bobina-cola-e-tinta/)
+- [Portal CIMM · artigo de Igor Bergara
+
+  ## Corte, dobra e solda: como a pequena metalúrgica organiza a fila de produção e para de atrasar entregas
+
+  Como organizar a fila de corte, dobra e solda na pequena metalúrgica e parar de atrasar entregas. Abre no site do CIMM.](https://www.cimm.com.br/portal/artigos/27866-corte-dobra-solda-pequena-metalurgica-organiza-fila-producao-atrasar-entregas)
 
 ---
 

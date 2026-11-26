@@ -132,6 +132,8 @@ O FábricaFlow é um software de gestão industrial automatizado para pequenas e
 
 Veja também: [papel e embalagens](https://fabricaflow.online/segmentos/papel-e-embalagens/) · [móveis e marcenaria](https://fabricaflow.online/segmentos/moveis-e-marcenaria/) · [metalurgia e serralheria](https://fabricaflow.online/segmentos/metalurgia-e-serralheria/)
 
+Leia também, no portal CIMM: [como a pequena metalúrgica organiza a fila de produção](https://www.cimm.com.br/portal/artigos/27866-corte-dobra-solda-pequena-metalurgica-organiza-fila-producao-atrasar-entregas)
+
 ---
 
 FábricaFlow · Plataforma de gestão industrial

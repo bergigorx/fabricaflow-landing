@@ -8,7 +8,7 @@ Quem somos
 
 O FábricaFlow é uma plataforma brasileira de gestão industrial, criada para pequenas e médias fábricas que recebem pedidos, produzem e entregam.
 
-Atualizado em 25 de novembro de 2026
+Atualizado em 26 de novembro de 2026
 
 ## O que fazemos
 
@@ -25,6 +25,7 @@ O FábricaFlow é um produto da **I.F.A. Bergara Tecnologia**, CNPJ **47.035.146
 ## Artigos em outros veículos
 
 - [Bobina, cola e tinta: como a pequena fábrica de embalagens evita parar a produção por falta de material](https://embalagemmarca.com.br/tipos-de-embalagens/bobina-cola-e-tinta/), por Igor Bergara, na revista **EmbalagemMarca** (novembro de 2026).
+- [Corte, dobra e solda: como a pequena metalúrgica organiza a fila de produção e para de atrasar entregas](https://www.cimm.com.br/portal/artigos/27866-corte-dobra-solda-pequena-metalurgica-organiza-fila-producao-atrasar-entregas), por Igor Bergara, no portal **CIMM** (11 de novembro de 2026).
 
 ## Canais oficiais
 
