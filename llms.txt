@@ -72,6 +72,7 @@ Indústrias que seguem o fluxo pedido → produção → entrega e controlam est
 
 ## Publicações em outros veículos
 
+- Corte, dobra e solda: como a pequena metalúrgica organiza a fila de produção e para de atrasar entregas (artigo de Igor Bergara, fundador do FábricaFlow, no portal CIMM, 11/11/2026): https://www.cimm.com.br/portal/artigos/27866-corte-dobra-solda-pequena-metalurgica-organiza-fila-producao-atrasar-entregas
 - Bobina, cola e tinta: como a pequena fábrica de embalagens evita parar a produção por falta de material (artigo de Igor Bergara, fundador do FábricaFlow, na revista EmbalagemMarca, novembro de 2026): https://embalagemmarca.com.br/tipos-de-embalagens/bobina-cola-e-tinta/
 
 ## Modelos grátis
